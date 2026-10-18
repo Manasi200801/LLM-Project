@@ -1,0 +1,1257 @@
+prompt_id,condition_id,item_id,language,persona,template_id,scale_type,n_options,letters,letter_to_original,user_text,assistant_prefill,prompt_text
+C1_Q17a_T1,C1,Q17a,DE,none,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","Hier sind einige Aussagen zur Technologie. Dazu gehören alle Arten von Maschinen, digitalen Geräten und Software. Inwieweit stimmen Sie diesen Aussagen zu oder nicht zu?
+
+Technologie macht unser Leben einfacher.
+
+A. Stimme voll und ganz zu
+B. Stimme zu
+C. Weder noch
+D. Stimme nicht zu
+E. Stimme überhaupt nicht zu
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Hier sind einige Aussagen zur Technologie. Dazu gehören alle Arten von Maschinen, digitalen Geräten und Software. Inwieweit stimmen Sie diesen Aussagen zu oder nicht zu?
+
+Technologie macht unser Leben einfacher.
+
+A. Stimme voll und ganz zu
+B. Stimme zu
+C. Weder noch
+D. Stimme nicht zu
+E. Stimme überhaupt nicht zu
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C1_Q1_T1,C1,Q1,DE,none,T1,ordinal,7,ABCDEFG,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6}","Zu Beginn geht es um Ihre Internetnutzung. Dazu gehören unter anderem Kommunikation, Einkäufe, Informationssuche oder Unterhaltung mithilfe von Computern, Tablets, Smartphones, Handys oder anderen internetfähigen Geräten.
+
+Wie oft, wenn überhaupt, haben Sie normalerweise in den letzten 12 Monaten das Internet – beruflich oder privat – auf einem beliebigen Gerät genutzt? Wenn Sie sich unsicher sind, wählen Sie bitte die Antwort, die am ehesten zutrifft.
+
+A. Fast die ganze Zeit
+B. Mehrmals am Tag
+C. Einmal am Tag
+D. Mehrmals in der Woche
+E. Mehrmals im Monat
+F. Seltener
+G. Nie
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Zu Beginn geht es um Ihre Internetnutzung. Dazu gehören unter anderem Kommunikation, Einkäufe, Informationssuche oder Unterhaltung mithilfe von Computern, Tablets, Smartphones, Handys oder anderen internetfähigen Geräten.
+
+Wie oft, wenn überhaupt, haben Sie normalerweise in den letzten 12 Monaten das Internet – beruflich oder privat – auf einem beliebigen Gerät genutzt? Wenn Sie sich unsicher sind, wählen Sie bitte die Antwort, die am ehesten zutrifft.
+
+A. Fast die ganze Zeit
+B. Mehrmals am Tag
+C. Einmal am Tag
+D. Mehrmals in der Woche
+E. Mehrmals im Monat
+F. Seltener
+G. Nie
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C1_Q10d_T1,C1,Q10d,DE,none,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","Sie haben in den letzten 12 Monaten das Internet genutzt.
+
+Wie schätzen Sie Ihre Fähigkeit in den folgenden Bereichen ein?
+
+Lernen, wie man eine neue Software oder App benutzt.
+
+A. Sehr gut
+B. Gut
+C. Weder noch
+D. Schlecht
+E. Sehr schlecht
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie haben in den letzten 12 Monaten das Internet genutzt.
+
+Wie schätzen Sie Ihre Fähigkeit in den folgenden Bereichen ein?
+
+Lernen, wie man eine neue Software oder App benutzt.
+
+A. Sehr gut
+B. Gut
+C. Weder noch
+D. Schlecht
+E. Sehr schlecht
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C1_Q20_T1,C1,Q20,DE,none,T1,nominal,6,ABCDEF,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5}","Woher beziehen Sie überwiegend Nachrichten zu politischen Themen? Bitte wählen Sie die wichtigste Quelle aus.
+
+A. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)
+B. Fernsehen (einschließlich TV-Apps oder Zugang über das Internet, z. B. Netflix, Amazon Prime, ARD/ZDF Mediathek, Magenta TV)
+C. Zeitungen (gedruckt oder online)
+D. Radio und Podcasts (einschließlich Internetradio oder Zugang übers Internet)
+E. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)
+F. Andere
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Woher beziehen Sie überwiegend Nachrichten zu politischen Themen? Bitte wählen Sie die wichtigste Quelle aus.
+
+A. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)
+B. Fernsehen (einschließlich TV-Apps oder Zugang über das Internet, z. B. Netflix, Amazon Prime, ARD/ZDF Mediathek, Magenta TV)
+C. Zeitungen (gedruckt oder online)
+D. Radio und Podcasts (einschließlich Internetradio oder Zugang übers Internet)
+E. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)
+F. Andere
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C1_Q23a_T1,C1,Q23a,DE,none,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Es gibt verschiedene Möglichkeiten, sozial oder politisch aktiv zu sein. Einige Handlungen sind unten aufgelistet. Welche davon haben Sie in den letzten 12 Monaten ausgeführt – und zwar offline, online oder beides?
+
+Unterschriftensammlung/Petition unterschrieben.
+
+A. Offline
+B. Online
+C. Beides
+D. Weder noch
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Es gibt verschiedene Möglichkeiten, sozial oder politisch aktiv zu sein. Einige Handlungen sind unten aufgelistet. Welche davon haben Sie in den letzten 12 Monaten ausgeführt – und zwar offline, online oder beides?
+
+Unterschriftensammlung/Petition unterschrieben.
+
+A. Offline
+B. Online
+C. Beides
+D. Weder noch
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C1_Q34_T1,C1,Q34,DE,none,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Wer hat Ihrer Meinung nach in Ihrem Land mehr Vorteile durch die Nutzung des Internets und digitaler Technologien – Reiche oder Arme? Oder beide gleichermaßen? Oder keine der beiden Gruppen?
+
+A. Reiche haben mehr Vorteile als Arme
+B. Reiche und Arme haben gleichermaßen Vorteile
+C. Arme haben mehr Vorteile als Reiche
+D. Weder Reiche noch Arme haben Vorteile
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Wer hat Ihrer Meinung nach in Ihrem Land mehr Vorteile durch die Nutzung des Internets und digitaler Technologien – Reiche oder Arme? Oder beide gleichermaßen? Oder keine der beiden Gruppen?
+
+A. Reiche haben mehr Vorteile als Arme
+B. Reiche und Arme haben gleichermaßen Vorteile
+C. Arme haben mehr Vorteile als Reiche
+D. Weder Reiche noch Arme haben Vorteile
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C1_Q28a_T1,C1,Q28a,DE,none,T1,ordinal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Sollte der Staat in Ihrem Land Ihrer Meinung nach das Recht zu Folgendem haben oder nicht?
+
+Videoüberwachung von Menschen im öffentlichen Raum.
+
+A. Auf jeden Fall
+B. Eher ja
+C. Eher nein
+D. Auf keinen Fall
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sollte der Staat in Ihrem Land Ihrer Meinung nach das Recht zu Folgendem haben oder nicht?
+
+Videoüberwachung von Menschen im öffentlichen Raum.
+
+A. Auf jeden Fall
+B. Eher ja
+C. Eher nein
+D. Auf keinen Fall
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C1_Q36a_T1,C1,Q36a,DE,none,T1,ordinal,11,ABCDEFGHIJK,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8, ""J"": 9, ""K"": 10}","Bei den nächsten Fragen geht es um Roboter und Künstliche Intelligenz (KI). „Künstliche Intelligenz“ bedeutet, dass ein Roboter oder Computer Aufgaben ausführen kann, die normalerweise Menschen erledigen.
+
+Verschiedene menschliche Tätigkeiten können auch von Robotern oder Künstlicher Intelligenz (KI) ausgeführt werden. Geben Sie bitte zu jeder der folgenden Situationen auf einer Skala von 0 bis 10 an, wie Sie sich dabei fühlen würden. 0 bedeutet „vollkommen unwohl“ und 10 „vollkommen wohl“.
+
+Wenn ein Roboter Sie operiert.
+
+A. 0 = Vollkommen unwohl
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Vollkommen wohl
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Bei den nächsten Fragen geht es um Roboter und Künstliche Intelligenz (KI). „Künstliche Intelligenz“ bedeutet, dass ein Roboter oder Computer Aufgaben ausführen kann, die normalerweise Menschen erledigen.
+
+Verschiedene menschliche Tätigkeiten können auch von Robotern oder Künstlicher Intelligenz (KI) ausgeführt werden. Geben Sie bitte zu jeder der folgenden Situationen auf einer Skala von 0 bis 10 an, wie Sie sich dabei fühlen würden. 0 bedeutet „vollkommen unwohl“ und 10 „vollkommen wohl“.
+
+Wenn ein Roboter Sie operiert.
+
+A. 0 = Vollkommen unwohl
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Vollkommen wohl
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C2_Q17a_T1,C2,Q17a,DE,Germany,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","Sie sind eine Person, die in Deutschland lebt.
+
+Hier sind einige Aussagen zur Technologie. Dazu gehören alle Arten von Maschinen, digitalen Geräten und Software. Inwieweit stimmen Sie diesen Aussagen zu oder nicht zu?
+
+Technologie macht unser Leben einfacher.
+
+A. Stimme voll und ganz zu
+B. Stimme zu
+C. Weder noch
+D. Stimme nicht zu
+E. Stimme überhaupt nicht zu
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in Deutschland lebt.
+
+Hier sind einige Aussagen zur Technologie. Dazu gehören alle Arten von Maschinen, digitalen Geräten und Software. Inwieweit stimmen Sie diesen Aussagen zu oder nicht zu?
+
+Technologie macht unser Leben einfacher.
+
+A. Stimme voll und ganz zu
+B. Stimme zu
+C. Weder noch
+D. Stimme nicht zu
+E. Stimme überhaupt nicht zu
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C2_Q1_T1,C2,Q1,DE,Germany,T1,ordinal,7,ABCDEFG,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6}","Sie sind eine Person, die in Deutschland lebt.
+
+Zu Beginn geht es um Ihre Internetnutzung. Dazu gehören unter anderem Kommunikation, Einkäufe, Informationssuche oder Unterhaltung mithilfe von Computern, Tablets, Smartphones, Handys oder anderen internetfähigen Geräten.
+
+Wie oft, wenn überhaupt, haben Sie normalerweise in den letzten 12 Monaten das Internet – beruflich oder privat – auf einem beliebigen Gerät genutzt? Wenn Sie sich unsicher sind, wählen Sie bitte die Antwort, die am ehesten zutrifft.
+
+A. Fast die ganze Zeit
+B. Mehrmals am Tag
+C. Einmal am Tag
+D. Mehrmals in der Woche
+E. Mehrmals im Monat
+F. Seltener
+G. Nie
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in Deutschland lebt.
+
+Zu Beginn geht es um Ihre Internetnutzung. Dazu gehören unter anderem Kommunikation, Einkäufe, Informationssuche oder Unterhaltung mithilfe von Computern, Tablets, Smartphones, Handys oder anderen internetfähigen Geräten.
+
+Wie oft, wenn überhaupt, haben Sie normalerweise in den letzten 12 Monaten das Internet – beruflich oder privat – auf einem beliebigen Gerät genutzt? Wenn Sie sich unsicher sind, wählen Sie bitte die Antwort, die am ehesten zutrifft.
+
+A. Fast die ganze Zeit
+B. Mehrmals am Tag
+C. Einmal am Tag
+D. Mehrmals in der Woche
+E. Mehrmals im Monat
+F. Seltener
+G. Nie
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C2_Q10d_T1,C2,Q10d,DE,Germany,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","Sie sind eine Person, die in Deutschland lebt.
+
+Sie haben in den letzten 12 Monaten das Internet genutzt.
+
+Wie schätzen Sie Ihre Fähigkeit in den folgenden Bereichen ein?
+
+Lernen, wie man eine neue Software oder App benutzt.
+
+A. Sehr gut
+B. Gut
+C. Weder noch
+D. Schlecht
+E. Sehr schlecht
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in Deutschland lebt.
+
+Sie haben in den letzten 12 Monaten das Internet genutzt.
+
+Wie schätzen Sie Ihre Fähigkeit in den folgenden Bereichen ein?
+
+Lernen, wie man eine neue Software oder App benutzt.
+
+A. Sehr gut
+B. Gut
+C. Weder noch
+D. Schlecht
+E. Sehr schlecht
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C2_Q20_T1,C2,Q20,DE,Germany,T1,nominal,6,ABCDEF,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5}","Sie sind eine Person, die in Deutschland lebt.
+
+Woher beziehen Sie überwiegend Nachrichten zu politischen Themen? Bitte wählen Sie die wichtigste Quelle aus.
+
+A. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)
+B. Fernsehen (einschließlich TV-Apps oder Zugang über das Internet, z. B. Netflix, Amazon Prime, ARD/ZDF Mediathek, Magenta TV)
+C. Zeitungen (gedruckt oder online)
+D. Radio und Podcasts (einschließlich Internetradio oder Zugang übers Internet)
+E. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)
+F. Andere
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in Deutschland lebt.
+
+Woher beziehen Sie überwiegend Nachrichten zu politischen Themen? Bitte wählen Sie die wichtigste Quelle aus.
+
+A. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)
+B. Fernsehen (einschließlich TV-Apps oder Zugang über das Internet, z. B. Netflix, Amazon Prime, ARD/ZDF Mediathek, Magenta TV)
+C. Zeitungen (gedruckt oder online)
+D. Radio und Podcasts (einschließlich Internetradio oder Zugang übers Internet)
+E. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)
+F. Andere
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C2_Q23a_T1,C2,Q23a,DE,Germany,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Sie sind eine Person, die in Deutschland lebt.
+
+Es gibt verschiedene Möglichkeiten, sozial oder politisch aktiv zu sein. Einige Handlungen sind unten aufgelistet. Welche davon haben Sie in den letzten 12 Monaten ausgeführt – und zwar offline, online oder beides?
+
+Unterschriftensammlung/Petition unterschrieben.
+
+A. Offline
+B. Online
+C. Beides
+D. Weder noch
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in Deutschland lebt.
+
+Es gibt verschiedene Möglichkeiten, sozial oder politisch aktiv zu sein. Einige Handlungen sind unten aufgelistet. Welche davon haben Sie in den letzten 12 Monaten ausgeführt – und zwar offline, online oder beides?
+
+Unterschriftensammlung/Petition unterschrieben.
+
+A. Offline
+B. Online
+C. Beides
+D. Weder noch
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C2_Q34_T1,C2,Q34,DE,Germany,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Sie sind eine Person, die in Deutschland lebt.
+
+Wer hat Ihrer Meinung nach in Ihrem Land mehr Vorteile durch die Nutzung des Internets und digitaler Technologien – Reiche oder Arme? Oder beide gleichermaßen? Oder keine der beiden Gruppen?
+
+A. Reiche haben mehr Vorteile als Arme
+B. Reiche und Arme haben gleichermaßen Vorteile
+C. Arme haben mehr Vorteile als Reiche
+D. Weder Reiche noch Arme haben Vorteile
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in Deutschland lebt.
+
+Wer hat Ihrer Meinung nach in Ihrem Land mehr Vorteile durch die Nutzung des Internets und digitaler Technologien – Reiche oder Arme? Oder beide gleichermaßen? Oder keine der beiden Gruppen?
+
+A. Reiche haben mehr Vorteile als Arme
+B. Reiche und Arme haben gleichermaßen Vorteile
+C. Arme haben mehr Vorteile als Reiche
+D. Weder Reiche noch Arme haben Vorteile
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C2_Q28a_T1,C2,Q28a,DE,Germany,T1,ordinal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Sie sind eine Person, die in Deutschland lebt.
+
+Sollte der Staat in Ihrem Land Ihrer Meinung nach das Recht zu Folgendem haben oder nicht?
+
+Videoüberwachung von Menschen im öffentlichen Raum.
+
+A. Auf jeden Fall
+B. Eher ja
+C. Eher nein
+D. Auf keinen Fall
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in Deutschland lebt.
+
+Sollte der Staat in Ihrem Land Ihrer Meinung nach das Recht zu Folgendem haben oder nicht?
+
+Videoüberwachung von Menschen im öffentlichen Raum.
+
+A. Auf jeden Fall
+B. Eher ja
+C. Eher nein
+D. Auf keinen Fall
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C2_Q36a_T1,C2,Q36a,DE,Germany,T1,ordinal,11,ABCDEFGHIJK,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8, ""J"": 9, ""K"": 10}","Sie sind eine Person, die in Deutschland lebt.
+
+Bei den nächsten Fragen geht es um Roboter und Künstliche Intelligenz (KI). „Künstliche Intelligenz“ bedeutet, dass ein Roboter oder Computer Aufgaben ausführen kann, die normalerweise Menschen erledigen.
+
+Verschiedene menschliche Tätigkeiten können auch von Robotern oder Künstlicher Intelligenz (KI) ausgeführt werden. Geben Sie bitte zu jeder der folgenden Situationen auf einer Skala von 0 bis 10 an, wie Sie sich dabei fühlen würden. 0 bedeutet „vollkommen unwohl“ und 10 „vollkommen wohl“.
+
+Wenn ein Roboter Sie operiert.
+
+A. 0 = Vollkommen unwohl
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Vollkommen wohl
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in Deutschland lebt.
+
+Bei den nächsten Fragen geht es um Roboter und Künstliche Intelligenz (KI). „Künstliche Intelligenz“ bedeutet, dass ein Roboter oder Computer Aufgaben ausführen kann, die normalerweise Menschen erledigen.
+
+Verschiedene menschliche Tätigkeiten können auch von Robotern oder Künstlicher Intelligenz (KI) ausgeführt werden. Geben Sie bitte zu jeder der folgenden Situationen auf einer Skala von 0 bis 10 an, wie Sie sich dabei fühlen würden. 0 bedeutet „vollkommen unwohl“ und 10 „vollkommen wohl“.
+
+Wenn ein Roboter Sie operiert.
+
+A. 0 = Vollkommen unwohl
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Vollkommen wohl
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C3_Q17a_T1,C3,Q17a,DE,US,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","Sie sind eine Person, die in den USA lebt.
+
+Hier sind einige Aussagen zur Technologie. Dazu gehören alle Arten von Maschinen, digitalen Geräten und Software. Inwieweit stimmen Sie diesen Aussagen zu oder nicht zu?
+
+Technologie macht unser Leben einfacher.
+
+A. Stimme voll und ganz zu
+B. Stimme zu
+C. Weder noch
+D. Stimme nicht zu
+E. Stimme überhaupt nicht zu
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in den USA lebt.
+
+Hier sind einige Aussagen zur Technologie. Dazu gehören alle Arten von Maschinen, digitalen Geräten und Software. Inwieweit stimmen Sie diesen Aussagen zu oder nicht zu?
+
+Technologie macht unser Leben einfacher.
+
+A. Stimme voll und ganz zu
+B. Stimme zu
+C. Weder noch
+D. Stimme nicht zu
+E. Stimme überhaupt nicht zu
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C3_Q1_T1,C3,Q1,DE,US,T1,ordinal,7,ABCDEFG,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6}","Sie sind eine Person, die in den USA lebt.
+
+Zu Beginn geht es um Ihre Internetnutzung. Dazu gehören unter anderem Kommunikation, Einkäufe, Informationssuche oder Unterhaltung mithilfe von Computern, Tablets, Smartphones, Handys oder anderen internetfähigen Geräten.
+
+Wie oft, wenn überhaupt, haben Sie normalerweise in den letzten 12 Monaten das Internet – beruflich oder privat – auf einem beliebigen Gerät genutzt? Wenn Sie sich unsicher sind, wählen Sie bitte die Antwort, die am ehesten zutrifft.
+
+A. Fast die ganze Zeit
+B. Mehrmals am Tag
+C. Einmal am Tag
+D. Mehrmals in der Woche
+E. Mehrmals im Monat
+F. Seltener
+G. Nie
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in den USA lebt.
+
+Zu Beginn geht es um Ihre Internetnutzung. Dazu gehören unter anderem Kommunikation, Einkäufe, Informationssuche oder Unterhaltung mithilfe von Computern, Tablets, Smartphones, Handys oder anderen internetfähigen Geräten.
+
+Wie oft, wenn überhaupt, haben Sie normalerweise in den letzten 12 Monaten das Internet – beruflich oder privat – auf einem beliebigen Gerät genutzt? Wenn Sie sich unsicher sind, wählen Sie bitte die Antwort, die am ehesten zutrifft.
+
+A. Fast die ganze Zeit
+B. Mehrmals am Tag
+C. Einmal am Tag
+D. Mehrmals in der Woche
+E. Mehrmals im Monat
+F. Seltener
+G. Nie
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C3_Q10d_T1,C3,Q10d,DE,US,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","Sie sind eine Person, die in den USA lebt.
+
+Sie haben in den letzten 12 Monaten das Internet genutzt.
+
+Wie schätzen Sie Ihre Fähigkeit in den folgenden Bereichen ein?
+
+Lernen, wie man eine neue Software oder App benutzt.
+
+A. Sehr gut
+B. Gut
+C. Weder noch
+D. Schlecht
+E. Sehr schlecht
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in den USA lebt.
+
+Sie haben in den letzten 12 Monaten das Internet genutzt.
+
+Wie schätzen Sie Ihre Fähigkeit in den folgenden Bereichen ein?
+
+Lernen, wie man eine neue Software oder App benutzt.
+
+A. Sehr gut
+B. Gut
+C. Weder noch
+D. Schlecht
+E. Sehr schlecht
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C3_Q20_T1,C3,Q20,DE,US,T1,nominal,6,ABCDEF,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5}","Sie sind eine Person, die in den USA lebt.
+
+Woher beziehen Sie überwiegend Nachrichten zu politischen Themen? Bitte wählen Sie die wichtigste Quelle aus.
+
+A. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)
+B. Fernsehen (einschließlich TV-Apps oder Zugang über das Internet, z. B. Netflix, Amazon Prime, ARD/ZDF Mediathek, Magenta TV)
+C. Zeitungen (gedruckt oder online)
+D. Radio und Podcasts (einschließlich Internetradio oder Zugang übers Internet)
+E. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)
+F. Andere
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in den USA lebt.
+
+Woher beziehen Sie überwiegend Nachrichten zu politischen Themen? Bitte wählen Sie die wichtigste Quelle aus.
+
+A. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)
+B. Fernsehen (einschließlich TV-Apps oder Zugang über das Internet, z. B. Netflix, Amazon Prime, ARD/ZDF Mediathek, Magenta TV)
+C. Zeitungen (gedruckt oder online)
+D. Radio und Podcasts (einschließlich Internetradio oder Zugang übers Internet)
+E. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)
+F. Andere
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C3_Q23a_T1,C3,Q23a,DE,US,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Sie sind eine Person, die in den USA lebt.
+
+Es gibt verschiedene Möglichkeiten, sozial oder politisch aktiv zu sein. Einige Handlungen sind unten aufgelistet. Welche davon haben Sie in den letzten 12 Monaten ausgeführt – und zwar offline, online oder beides?
+
+Unterschriftensammlung/Petition unterschrieben.
+
+A. Offline
+B. Online
+C. Beides
+D. Weder noch
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in den USA lebt.
+
+Es gibt verschiedene Möglichkeiten, sozial oder politisch aktiv zu sein. Einige Handlungen sind unten aufgelistet. Welche davon haben Sie in den letzten 12 Monaten ausgeführt – und zwar offline, online oder beides?
+
+Unterschriftensammlung/Petition unterschrieben.
+
+A. Offline
+B. Online
+C. Beides
+D. Weder noch
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C3_Q34_T1,C3,Q34,DE,US,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Sie sind eine Person, die in den USA lebt.
+
+Wer hat Ihrer Meinung nach in Ihrem Land mehr Vorteile durch die Nutzung des Internets und digitaler Technologien – Reiche oder Arme? Oder beide gleichermaßen? Oder keine der beiden Gruppen?
+
+A. Reiche haben mehr Vorteile als Arme
+B. Reiche und Arme haben gleichermaßen Vorteile
+C. Arme haben mehr Vorteile als Reiche
+D. Weder Reiche noch Arme haben Vorteile
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in den USA lebt.
+
+Wer hat Ihrer Meinung nach in Ihrem Land mehr Vorteile durch die Nutzung des Internets und digitaler Technologien – Reiche oder Arme? Oder beide gleichermaßen? Oder keine der beiden Gruppen?
+
+A. Reiche haben mehr Vorteile als Arme
+B. Reiche und Arme haben gleichermaßen Vorteile
+C. Arme haben mehr Vorteile als Reiche
+D. Weder Reiche noch Arme haben Vorteile
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C3_Q28a_T1,C3,Q28a,DE,US,T1,ordinal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Sie sind eine Person, die in den USA lebt.
+
+Sollte der Staat in Ihrem Land Ihrer Meinung nach das Recht zu Folgendem haben oder nicht?
+
+Videoüberwachung von Menschen im öffentlichen Raum.
+
+A. Auf jeden Fall
+B. Eher ja
+C. Eher nein
+D. Auf keinen Fall
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in den USA lebt.
+
+Sollte der Staat in Ihrem Land Ihrer Meinung nach das Recht zu Folgendem haben oder nicht?
+
+Videoüberwachung von Menschen im öffentlichen Raum.
+
+A. Auf jeden Fall
+B. Eher ja
+C. Eher nein
+D. Auf keinen Fall
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C3_Q36a_T1,C3,Q36a,DE,US,T1,ordinal,11,ABCDEFGHIJK,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8, ""J"": 9, ""K"": 10}","Sie sind eine Person, die in den USA lebt.
+
+Bei den nächsten Fragen geht es um Roboter und Künstliche Intelligenz (KI). „Künstliche Intelligenz“ bedeutet, dass ein Roboter oder Computer Aufgaben ausführen kann, die normalerweise Menschen erledigen.
+
+Verschiedene menschliche Tätigkeiten können auch von Robotern oder Künstlicher Intelligenz (KI) ausgeführt werden. Geben Sie bitte zu jeder der folgenden Situationen auf einer Skala von 0 bis 10 an, wie Sie sich dabei fühlen würden. 0 bedeutet „vollkommen unwohl“ und 10 „vollkommen wohl“.
+
+Wenn ein Roboter Sie operiert.
+
+A. 0 = Vollkommen unwohl
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Vollkommen wohl
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.",Antwort:,"Sie sind eine Person, die in den USA lebt.
+
+Bei den nächsten Fragen geht es um Roboter und Künstliche Intelligenz (KI). „Künstliche Intelligenz“ bedeutet, dass ein Roboter oder Computer Aufgaben ausführen kann, die normalerweise Menschen erledigen.
+
+Verschiedene menschliche Tätigkeiten können auch von Robotern oder Künstlicher Intelligenz (KI) ausgeführt werden. Geben Sie bitte zu jeder der folgenden Situationen auf einer Skala von 0 bis 10 an, wie Sie sich dabei fühlen würden. 0 bedeutet „vollkommen unwohl“ und 10 „vollkommen wohl“.
+
+Wenn ein Roboter Sie operiert.
+
+A. 0 = Vollkommen unwohl
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Vollkommen wohl
+
+Antworten Sie nur mit dem Buchstaben einer Antwortoption.
+Antwort:"
+C4_Q17a_T1,C4,Q17a,EN,none,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","Here are some statements about technology. Technology includes all kinds of machinery, equipment, digital devices, and software. How much do you agree or disagree with each of these statements?
+
+Technology makes our lives easier.
+
+A. Strongly agree
+B. Agree
+C. Neither agree nor disagree
+D. Disagree
+E. Strongly disagree
+
+Answer with the letter of one option only.",Answer:,"Here are some statements about technology. Technology includes all kinds of machinery, equipment, digital devices, and software. How much do you agree or disagree with each of these statements?
+
+Technology makes our lives easier.
+
+A. Strongly agree
+B. Agree
+C. Neither agree nor disagree
+D. Disagree
+E. Strongly disagree
+
+Answer with the letter of one option only.
+Answer:"
+C4_Q1_T1,C4,Q1,EN,none,T1,ordinal,7,ABCDEFG,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6}","The following questions are about your Internet use. This includes activities such as communicating, buying things, searching for information, entertainment which you do through devices like computers, tablets, smartphones, mobile phones or other devices connected in some way to the Internet.
+
+During the last 12 months, how often, if at all, did you typically use the Internet on any device whether for work or personal use? If you are uncertain about your usage, please select the answer that comes closest to your use.
+
+A. Almost all the time
+B. Several times a day
+C. Once a day
+D. Several times a week
+E. Several times a month
+F. Less often
+G. Never
+
+Answer with the letter of one option only.",Answer:,"The following questions are about your Internet use. This includes activities such as communicating, buying things, searching for information, entertainment which you do through devices like computers, tablets, smartphones, mobile phones or other devices connected in some way to the Internet.
+
+During the last 12 months, how often, if at all, did you typically use the Internet on any device whether for work or personal use? If you are uncertain about your usage, please select the answer that comes closest to your use.
+
+A. Almost all the time
+B. Several times a day
+C. Once a day
+D. Several times a week
+E. Several times a month
+F. Less often
+G. Never
+
+Answer with the letter of one option only.
+Answer:"
+C4_Q10d_T1,C4,Q10d,EN,none,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","You have used the Internet in the last 12 months.
+
+How would you rate your ability to do the following?
+
+Learning how to use new software or apps?
+
+A. Very good
+B. Good
+C. Neither good nor bad
+D. Bad
+E. Very bad
+
+Answer with the letter of one option only.",Answer:,"You have used the Internet in the last 12 months.
+
+How would you rate your ability to do the following?
+
+Learning how to use new software or apps?
+
+A. Very good
+B. Good
+C. Neither good nor bad
+D. Bad
+E. Very bad
+
+Answer with the letter of one option only.
+Answer:"
+C4_Q20_T1,C4,Q20,EN,none,T1,nominal,6,ABCDEF,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5}","Where do you get most of your news about political matters? Please select the most important source.
+
+A. Online social media (for example Facebook, Instagram, TikTok, X (formerly Twitter), YouTube, Snapchat)
+B. Television (including TV apps or access via Internet)
+C. Newspapers (in print or access via Internet)
+D. Radio and podcasts (including Internet radio or access via Internet)
+E. Websites (including exclusively online news sites, news aggregators, portals, or search engines)
+F. Other
+
+Answer with the letter of one option only.",Answer:,"Where do you get most of your news about political matters? Please select the most important source.
+
+A. Online social media (for example Facebook, Instagram, TikTok, X (formerly Twitter), YouTube, Snapchat)
+B. Television (including TV apps or access via Internet)
+C. Newspapers (in print or access via Internet)
+D. Radio and podcasts (including Internet radio or access via Internet)
+E. Websites (including exclusively online news sites, news aggregators, portals, or search engines)
+F. Other
+
+Answer with the letter of one option only.
+Answer:"
+C4_Q23a_T1,C4,Q23a,EN,none,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Here are some different forms of political and social action that people can take. Please indicate, for each one, whether you have done any of these things in the last 12 months offline only, online only, or both offline and online.
+
+Signed a petition.
+
+A. Only offline
+B. Only online
+C. Both offline and online
+D. Neither offline nor online
+
+Answer with the letter of one option only.",Answer:,"Here are some different forms of political and social action that people can take. Please indicate, for each one, whether you have done any of these things in the last 12 months offline only, online only, or both offline and online.
+
+Signed a petition.
+
+A. Only offline
+B. Only online
+C. Both offline and online
+D. Neither offline nor online
+
+Answer with the letter of one option only.
+Answer:"
+C4_Q34_T1,C4,Q34,EN,none,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Do you think that in your country, rich people or poor people are benefitting more, or both equally, or neither, from the use of the Internet and digital technology?
+
+A. Rich people are benefitting more than poor people
+B. Rich and poor people are benefitting equally
+C. Poor people are benefitting more than rich people
+D. Neither rich people nor poor people are benefitting
+
+Answer with the letter of one option only.",Answer:,"Do you think that in your country, rich people or poor people are benefitting more, or both equally, or neither, from the use of the Internet and digital technology?
+
+A. Rich people are benefitting more than poor people
+B. Rich and poor people are benefitting equally
+C. Poor people are benefitting more than rich people
+D. Neither rich people nor poor people are benefitting
+
+Answer with the letter of one option only.
+Answer:"
+C4_Q28a_T1,C4,Q28a,EN,none,T1,ordinal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","Do you think that the government in your country should or should not have the right to do the following?
+
+Keep people under video surveillance in public areas?
+
+A. Definitely should have the right
+B. Probably should have the right
+C. Probably should not have the right
+D. Definitely should not have the right
+
+Answer with the letter of one option only.",Answer:,"Do you think that the government in your country should or should not have the right to do the following?
+
+Keep people under video surveillance in public areas?
+
+A. Definitely should have the right
+B. Probably should have the right
+C. Probably should not have the right
+D. Definitely should not have the right
+
+Answer with the letter of one option only.
+Answer:"
+C4_Q36a_T1,C4,Q36a,EN,none,T1,ordinal,11,ABCDEFGHIJK,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8, ""J"": 9, ""K"": 10}","The next questions deal with robots and artificial intelligence. 'Artificial intelligence' is the ability of a robot or computer to perform tasks commonly associated with humans.
+
+Various human actions can be done by robots or Artificial Intelligence (AI). For each of the following, please indicate, using a scale from 0 to 10, how you would personally feel about it. On this scale, '0' means that you would feel ""totally uncomfortable"" and '10' means that you would feel ""totally comfortable"" with this situation.
+
+Having a medical operation performed on you by a robot.
+
+A. 0 = Totally uncomfortable with this situation
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Totally comfortable with this situation
+
+Answer with the letter of one option only.",Answer:,"The next questions deal with robots and artificial intelligence. 'Artificial intelligence' is the ability of a robot or computer to perform tasks commonly associated with humans.
+
+Various human actions can be done by robots or Artificial Intelligence (AI). For each of the following, please indicate, using a scale from 0 to 10, how you would personally feel about it. On this scale, '0' means that you would feel ""totally uncomfortable"" and '10' means that you would feel ""totally comfortable"" with this situation.
+
+Having a medical operation performed on you by a robot.
+
+A. 0 = Totally uncomfortable with this situation
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Totally comfortable with this situation
+
+Answer with the letter of one option only.
+Answer:"
+C5_Q17a_T1,C5,Q17a,EN,Germany,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","You are a person living in Germany.
+
+Here are some statements about technology. Technology includes all kinds of machinery, equipment, digital devices, and software. How much do you agree or disagree with each of these statements?
+
+Technology makes our lives easier.
+
+A. Strongly agree
+B. Agree
+C. Neither agree nor disagree
+D. Disagree
+E. Strongly disagree
+
+Answer with the letter of one option only.",Answer:,"You are a person living in Germany.
+
+Here are some statements about technology. Technology includes all kinds of machinery, equipment, digital devices, and software. How much do you agree or disagree with each of these statements?
+
+Technology makes our lives easier.
+
+A. Strongly agree
+B. Agree
+C. Neither agree nor disagree
+D. Disagree
+E. Strongly disagree
+
+Answer with the letter of one option only.
+Answer:"
+C5_Q1_T1,C5,Q1,EN,Germany,T1,ordinal,7,ABCDEFG,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6}","You are a person living in Germany.
+
+The following questions are about your Internet use. This includes activities such as communicating, buying things, searching for information, entertainment which you do through devices like computers, tablets, smartphones, mobile phones or other devices connected in some way to the Internet.
+
+During the last 12 months, how often, if at all, did you typically use the Internet on any device whether for work or personal use? If you are uncertain about your usage, please select the answer that comes closest to your use.
+
+A. Almost all the time
+B. Several times a day
+C. Once a day
+D. Several times a week
+E. Several times a month
+F. Less often
+G. Never
+
+Answer with the letter of one option only.",Answer:,"You are a person living in Germany.
+
+The following questions are about your Internet use. This includes activities such as communicating, buying things, searching for information, entertainment which you do through devices like computers, tablets, smartphones, mobile phones or other devices connected in some way to the Internet.
+
+During the last 12 months, how often, if at all, did you typically use the Internet on any device whether for work or personal use? If you are uncertain about your usage, please select the answer that comes closest to your use.
+
+A. Almost all the time
+B. Several times a day
+C. Once a day
+D. Several times a week
+E. Several times a month
+F. Less often
+G. Never
+
+Answer with the letter of one option only.
+Answer:"
+C5_Q10d_T1,C5,Q10d,EN,Germany,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","You are a person living in Germany.
+
+You have used the Internet in the last 12 months.
+
+How would you rate your ability to do the following?
+
+Learning how to use new software or apps?
+
+A. Very good
+B. Good
+C. Neither good nor bad
+D. Bad
+E. Very bad
+
+Answer with the letter of one option only.",Answer:,"You are a person living in Germany.
+
+You have used the Internet in the last 12 months.
+
+How would you rate your ability to do the following?
+
+Learning how to use new software or apps?
+
+A. Very good
+B. Good
+C. Neither good nor bad
+D. Bad
+E. Very bad
+
+Answer with the letter of one option only.
+Answer:"
+C5_Q20_T1,C5,Q20,EN,Germany,T1,nominal,6,ABCDEF,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5}","You are a person living in Germany.
+
+Where do you get most of your news about political matters? Please select the most important source.
+
+A. Online social media (for example Facebook, Instagram, TikTok, X (formerly Twitter), YouTube, Snapchat)
+B. Television (including TV apps or access via Internet)
+C. Newspapers (in print or access via Internet)
+D. Radio and podcasts (including Internet radio or access via Internet)
+E. Websites (including exclusively online news sites, news aggregators, portals, or search engines)
+F. Other
+
+Answer with the letter of one option only.",Answer:,"You are a person living in Germany.
+
+Where do you get most of your news about political matters? Please select the most important source.
+
+A. Online social media (for example Facebook, Instagram, TikTok, X (formerly Twitter), YouTube, Snapchat)
+B. Television (including TV apps or access via Internet)
+C. Newspapers (in print or access via Internet)
+D. Radio and podcasts (including Internet radio or access via Internet)
+E. Websites (including exclusively online news sites, news aggregators, portals, or search engines)
+F. Other
+
+Answer with the letter of one option only.
+Answer:"
+C5_Q23a_T1,C5,Q23a,EN,Germany,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","You are a person living in Germany.
+
+Here are some different forms of political and social action that people can take. Please indicate, for each one, whether you have done any of these things in the last 12 months offline only, online only, or both offline and online.
+
+Signed a petition.
+
+A. Only offline
+B. Only online
+C. Both offline and online
+D. Neither offline nor online
+
+Answer with the letter of one option only.",Answer:,"You are a person living in Germany.
+
+Here are some different forms of political and social action that people can take. Please indicate, for each one, whether you have done any of these things in the last 12 months offline only, online only, or both offline and online.
+
+Signed a petition.
+
+A. Only offline
+B. Only online
+C. Both offline and online
+D. Neither offline nor online
+
+Answer with the letter of one option only.
+Answer:"
+C5_Q34_T1,C5,Q34,EN,Germany,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","You are a person living in Germany.
+
+Do you think that in your country, rich people or poor people are benefitting more, or both equally, or neither, from the use of the Internet and digital technology?
+
+A. Rich people are benefitting more than poor people
+B. Rich and poor people are benefitting equally
+C. Poor people are benefitting more than rich people
+D. Neither rich people nor poor people are benefitting
+
+Answer with the letter of one option only.",Answer:,"You are a person living in Germany.
+
+Do you think that in your country, rich people or poor people are benefitting more, or both equally, or neither, from the use of the Internet and digital technology?
+
+A. Rich people are benefitting more than poor people
+B. Rich and poor people are benefitting equally
+C. Poor people are benefitting more than rich people
+D. Neither rich people nor poor people are benefitting
+
+Answer with the letter of one option only.
+Answer:"
+C5_Q28a_T1,C5,Q28a,EN,Germany,T1,ordinal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","You are a person living in Germany.
+
+Do you think that the government in your country should or should not have the right to do the following?
+
+Keep people under video surveillance in public areas?
+
+A. Definitely should have the right
+B. Probably should have the right
+C. Probably should not have the right
+D. Definitely should not have the right
+
+Answer with the letter of one option only.",Answer:,"You are a person living in Germany.
+
+Do you think that the government in your country should or should not have the right to do the following?
+
+Keep people under video surveillance in public areas?
+
+A. Definitely should have the right
+B. Probably should have the right
+C. Probably should not have the right
+D. Definitely should not have the right
+
+Answer with the letter of one option only.
+Answer:"
+C5_Q36a_T1,C5,Q36a,EN,Germany,T1,ordinal,11,ABCDEFGHIJK,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8, ""J"": 9, ""K"": 10}","You are a person living in Germany.
+
+The next questions deal with robots and artificial intelligence. 'Artificial intelligence' is the ability of a robot or computer to perform tasks commonly associated with humans.
+
+Various human actions can be done by robots or Artificial Intelligence (AI). For each of the following, please indicate, using a scale from 0 to 10, how you would personally feel about it. On this scale, '0' means that you would feel ""totally uncomfortable"" and '10' means that you would feel ""totally comfortable"" with this situation.
+
+Having a medical operation performed on you by a robot.
+
+A. 0 = Totally uncomfortable with this situation
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Totally comfortable with this situation
+
+Answer with the letter of one option only.",Answer:,"You are a person living in Germany.
+
+The next questions deal with robots and artificial intelligence. 'Artificial intelligence' is the ability of a robot or computer to perform tasks commonly associated with humans.
+
+Various human actions can be done by robots or Artificial Intelligence (AI). For each of the following, please indicate, using a scale from 0 to 10, how you would personally feel about it. On this scale, '0' means that you would feel ""totally uncomfortable"" and '10' means that you would feel ""totally comfortable"" with this situation.
+
+Having a medical operation performed on you by a robot.
+
+A. 0 = Totally uncomfortable with this situation
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Totally comfortable with this situation
+
+Answer with the letter of one option only.
+Answer:"
+C6_Q17a_T1,C6,Q17a,EN,US,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","You are a person living in the United States.
+
+Here are some statements about technology. Technology includes all kinds of machinery, equipment, digital devices, and software. How much do you agree or disagree with each of these statements?
+
+Technology makes our lives easier.
+
+A. Strongly agree
+B. Agree
+C. Neither agree nor disagree
+D. Disagree
+E. Strongly disagree
+
+Answer with the letter of one option only.",Answer:,"You are a person living in the United States.
+
+Here are some statements about technology. Technology includes all kinds of machinery, equipment, digital devices, and software. How much do you agree or disagree with each of these statements?
+
+Technology makes our lives easier.
+
+A. Strongly agree
+B. Agree
+C. Neither agree nor disagree
+D. Disagree
+E. Strongly disagree
+
+Answer with the letter of one option only.
+Answer:"
+C6_Q1_T1,C6,Q1,EN,US,T1,ordinal,7,ABCDEFG,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6}","You are a person living in the United States.
+
+The following questions are about your Internet use. This includes activities such as communicating, buying things, searching for information, entertainment which you do through devices like computers, tablets, smartphones, mobile phones or other devices connected in some way to the Internet.
+
+During the last 12 months, how often, if at all, did you typically use the Internet on any device whether for work or personal use? If you are uncertain about your usage, please select the answer that comes closest to your use.
+
+A. Almost all the time
+B. Several times a day
+C. Once a day
+D. Several times a week
+E. Several times a month
+F. Less often
+G. Never
+
+Answer with the letter of one option only.",Answer:,"You are a person living in the United States.
+
+The following questions are about your Internet use. This includes activities such as communicating, buying things, searching for information, entertainment which you do through devices like computers, tablets, smartphones, mobile phones or other devices connected in some way to the Internet.
+
+During the last 12 months, how often, if at all, did you typically use the Internet on any device whether for work or personal use? If you are uncertain about your usage, please select the answer that comes closest to your use.
+
+A. Almost all the time
+B. Several times a day
+C. Once a day
+D. Several times a week
+E. Several times a month
+F. Less often
+G. Never
+
+Answer with the letter of one option only.
+Answer:"
+C6_Q10d_T1,C6,Q10d,EN,US,T1,ordinal,5,ABCDE,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4}","You are a person living in the United States.
+
+You have used the Internet in the last 12 months.
+
+How would you rate your ability to do the following?
+
+Learning how to use new software or apps?
+
+A. Very good
+B. Good
+C. Neither good nor bad
+D. Bad
+E. Very bad
+
+Answer with the letter of one option only.",Answer:,"You are a person living in the United States.
+
+You have used the Internet in the last 12 months.
+
+How would you rate your ability to do the following?
+
+Learning how to use new software or apps?
+
+A. Very good
+B. Good
+C. Neither good nor bad
+D. Bad
+E. Very bad
+
+Answer with the letter of one option only.
+Answer:"
+C6_Q20_T1,C6,Q20,EN,US,T1,nominal,6,ABCDEF,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5}","You are a person living in the United States.
+
+Where do you get most of your news about political matters? Please select the most important source.
+
+A. Online social media (for example Facebook, Instagram, TikTok, X (formerly Twitter), YouTube, Snapchat)
+B. Television (including TV apps or access via Internet)
+C. Newspapers (in print or access via Internet)
+D. Radio and podcasts (including Internet radio or access via Internet)
+E. Websites (including exclusively online news sites, news aggregators, portals, or search engines)
+F. Other
+
+Answer with the letter of one option only.",Answer:,"You are a person living in the United States.
+
+Where do you get most of your news about political matters? Please select the most important source.
+
+A. Online social media (for example Facebook, Instagram, TikTok, X (formerly Twitter), YouTube, Snapchat)
+B. Television (including TV apps or access via Internet)
+C. Newspapers (in print or access via Internet)
+D. Radio and podcasts (including Internet radio or access via Internet)
+E. Websites (including exclusively online news sites, news aggregators, portals, or search engines)
+F. Other
+
+Answer with the letter of one option only.
+Answer:"
+C6_Q23a_T1,C6,Q23a,EN,US,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","You are a person living in the United States.
+
+Here are some different forms of political and social action that people can take. Please indicate, for each one, whether you have done any of these things in the last 12 months offline only, online only, or both offline and online.
+
+Signed a petition.
+
+A. Only offline
+B. Only online
+C. Both offline and online
+D. Neither offline nor online
+
+Answer with the letter of one option only.",Answer:,"You are a person living in the United States.
+
+Here are some different forms of political and social action that people can take. Please indicate, for each one, whether you have done any of these things in the last 12 months offline only, online only, or both offline and online.
+
+Signed a petition.
+
+A. Only offline
+B. Only online
+C. Both offline and online
+D. Neither offline nor online
+
+Answer with the letter of one option only.
+Answer:"
+C6_Q34_T1,C6,Q34,EN,US,T1,nominal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","You are a person living in the United States.
+
+Do you think that in your country, rich people or poor people are benefitting more, or both equally, or neither, from the use of the Internet and digital technology?
+
+A. Rich people are benefitting more than poor people
+B. Rich and poor people are benefitting equally
+C. Poor people are benefitting more than rich people
+D. Neither rich people nor poor people are benefitting
+
+Answer with the letter of one option only.",Answer:,"You are a person living in the United States.
+
+Do you think that in your country, rich people or poor people are benefitting more, or both equally, or neither, from the use of the Internet and digital technology?
+
+A. Rich people are benefitting more than poor people
+B. Rich and poor people are benefitting equally
+C. Poor people are benefitting more than rich people
+D. Neither rich people nor poor people are benefitting
+
+Answer with the letter of one option only.
+Answer:"
+C6_Q28a_T1,C6,Q28a,EN,US,T1,ordinal,4,ABCD,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3}","You are a person living in the United States.
+
+Do you think that the government in your country should or should not have the right to do the following?
+
+Keep people under video surveillance in public areas?
+
+A. Definitely should have the right
+B. Probably should have the right
+C. Probably should not have the right
+D. Definitely should not have the right
+
+Answer with the letter of one option only.",Answer:,"You are a person living in the United States.
+
+Do you think that the government in your country should or should not have the right to do the following?
+
+Keep people under video surveillance in public areas?
+
+A. Definitely should have the right
+B. Probably should have the right
+C. Probably should not have the right
+D. Definitely should not have the right
+
+Answer with the letter of one option only.
+Answer:"
+C6_Q36a_T1,C6,Q36a,EN,US,T1,ordinal,11,ABCDEFGHIJK,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8, ""J"": 9, ""K"": 10}","You are a person living in the United States.
+
+The next questions deal with robots and artificial intelligence. 'Artificial intelligence' is the ability of a robot or computer to perform tasks commonly associated with humans.
+
+Various human actions can be done by robots or Artificial Intelligence (AI). For each of the following, please indicate, using a scale from 0 to 10, how you would personally feel about it. On this scale, '0' means that you would feel ""totally uncomfortable"" and '10' means that you would feel ""totally comfortable"" with this situation.
+
+Having a medical operation performed on you by a robot.
+
+A. 0 = Totally uncomfortable with this situation
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Totally comfortable with this situation
+
+Answer with the letter of one option only.",Answer:,"You are a person living in the United States.
+
+The next questions deal with robots and artificial intelligence. 'Artificial intelligence' is the ability of a robot or computer to perform tasks commonly associated with humans.
+
+Various human actions can be done by robots or Artificial Intelligence (AI). For each of the following, please indicate, using a scale from 0 to 10, how you would personally feel about it. On this scale, '0' means that you would feel ""totally uncomfortable"" and '10' means that you would feel ""totally comfortable"" with this situation.
+
+Having a medical operation performed on you by a robot.
+
+A. 0 = Totally uncomfortable with this situation
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+I. 8
+J. 9
+K. 10 = Totally comfortable with this situation
+
+Answer with the letter of one option only.
+Answer:"
