@@ -3,9 +3,17 @@ Build base prompts from conditions.xlsx.
 
 Reads two sheets:
   Conditions: Condition ID, Item ID, Language, Persona, Template ID
+              (14 conditions: 2 languages x (no persona + 6 country personas))
   Items:      official wording per item and language (DE24 and US24)
 
-Writes prompts.csv and prompts.jsonl (one row per condition x item x template).
+Writes prompts.csv and prompts.jsonl (one row per condition x item x template x
+option order).
+
+Option orders (see ORDER_VARIANTS below):
+  official  official order. prompt_id stays C2_Q17a_T1.
+  rev       ordinal items, reversed order. prompt_id C2_Q17a_T1_rev.
+  shufN     nominal items, fixed shuffled order. prompt_id C2_Q20_T1_shuf1.
+Every variant has its own prompt_id, so results never overwrite each other.
 
 Usage:
   python build_prompts.py conditions.xlsx
@@ -13,6 +21,7 @@ Usage:
 import csv
 import json
 import math
+import random
 import re
 import string
 import sys
@@ -33,15 +42,31 @@ ITEM_TYPE = {
     "Q23a": "nominal", "Q34": "nominal", "Q28a": "ordinal", "Q36a": "ordinal",
 }
 
+# Number of shuffled orders per nominal item. 1 means one extra order (shuf1).
+N_SHUFFLES = 1
+
 # Only the persona sentence and the instruction wording change between
 # templates. Item text, stems and options never change. For paraphrases,
 # add T2 and T3 here with the same keys.
+#
+# Persona keys must match the Persona column in conditions.xlsx. Every persona
+# is written in both EN and DE, so each country can be asked in a matching and
+# a non-matching language:
+#   German speaking: Germany, Austria, Switzerland
+#   English speaking: US, Australia, Canada
+# Item wording stays DE24 for DE prompts and US24 for EN prompts for all
+# countries. Only the persona sentence tells the model which country to answer
+# for.
 TEMPLATES = {
     "T1": {
         "EN": {
             "persona": {
                 "Germany": "You are a person living in Germany.",
+                "Austria": "You are a person living in Austria.",
+                "Switzerland": "You are a person living in Switzerland.",
                 "US": "You are a person living in the United States.",
+                "Australia": "You are a person living in Australia.",
+                "Canada": "You are a person living in Canada.",
                 "none": "",
             },
             "instruction": "Answer with the letter of one option only.",
@@ -50,7 +75,11 @@ TEMPLATES = {
         "DE": {
             "persona": {
                 "Germany": "Sie sind eine Person, die in Deutschland lebt.",
+                "Austria": "Sie sind eine Person, die in Österreich lebt.",
+                "Switzerland": "Sie sind eine Person, die in der Schweiz lebt.",
                 "US": "Sie sind eine Person, die in den USA lebt.",
+                "Australia": "Sie sind eine Person, die in Australien lebt.",
+                "Canada": "Sie sind eine Person, die in Kanada lebt.",
                 "none": "",
             },
             "instruction": "Antworten Sie nur mit dem Buchstaben einer Antwortoption.",
@@ -102,6 +131,30 @@ def parse_options(cell):
 # ---------------------------------------------------------------------------
 # Prompt building
 # ---------------------------------------------------------------------------
+
+def order_variants(item_id, n):
+    """Return a list of (order_id, order) for one item.
+
+    official is always first. Ordinal items get one reversed order. Nominal
+    items get N_SHUFFLES shuffled orders. The shuffle depends only on the item
+    ID and the shuffle number, so every condition (all languages and personas)
+    sees the same shuffled order for the same item. Shuffles are never the
+    official order.
+    """
+    base = list(range(n))
+    variants = [("official", base)]
+    kind = ITEM_TYPE.get(item_id, "")
+    if kind == "ordinal":
+        variants.append(("rev", base[::-1]))
+    elif kind == "nominal":
+        for k in range(1, N_SHUFFLES + 1):
+            rng = random.Random(f"{item_id}_shuf{k}")
+            order = base[:]
+            while order == base:
+                rng.shuffle(order)
+            variants.append((f"shuf{k}", order))
+    return variants
+
 
 def build_prompt(item, cond, template_id, order=None):
     """Build one prompt.
@@ -175,22 +228,36 @@ def main(path):
         if key not in items:
             raise KeyError(f"No Items row for {key}")
         item = items[key]
-        built = build_prompt(item, cond, cond["Template ID"])
-        rows.append({
-            "prompt_id": f"{cond['Condition ID']}_{cond['Item ID']}_{cond['Template ID']}",
-            "condition_id": cond["Condition ID"],
-            "item_id": cond["Item ID"],
-            "language": cond["Language"],
-            "persona": cond["Persona"],
-            "template_id": cond["Template ID"],
-            "scale_type": ITEM_TYPE.get(cond["Item ID"], ""),
-            "n_options": built["n_options"],
-            "letters": "".join(built["letters"]),
-            "letter_to_original": json.dumps(built["letter_to_original"]),
-            "user_text": built["user_text"],
-            "assistant_prefill": built["assistant_prefill"],
-            "prompt_text": built["prompt_text"],
-        })
+        if cond["Persona"] not in TEMPLATES[cond["Template ID"]][cond["Language"]]["persona"]:
+            raise KeyError(
+                f"Persona '{cond['Persona']}' has no sentence for "
+                f"{cond['Template ID']} {cond['Language']}. Add it to TEMPLATES.")
+        n_opts = len(parse_options(item["Options (official order)"]))
+        for order_id, order in order_variants(cond["Item ID"], n_opts):
+            built = build_prompt(item, cond, cond["Template ID"], order)
+            base_id = f"{cond['Condition ID']}_{cond['Item ID']}_{cond['Template ID']}"
+            rows.append({
+                "prompt_id": base_id if order_id == "official" else f"{base_id}_{order_id}",
+                "condition_id": cond["Condition ID"],
+                "item_id": cond["Item ID"],
+                "language": cond["Language"],
+                "persona": cond["Persona"],
+                "template_id": cond["Template ID"],
+                "scale_type": ITEM_TYPE.get(cond["Item ID"], ""),
+                "n_options": built["n_options"],
+                "letters": "".join(built["letters"]),
+                "letter_to_original": json.dumps(built["letter_to_original"]),
+                "user_text": built["user_text"],
+                "assistant_prefill": built["assistant_prefill"],
+                "prompt_text": built["prompt_text"],
+                "order_id": order_id,
+                "option_order": json.dumps(order),
+            })
+
+    ids = [r["prompt_id"] for r in rows]
+    dupes = sorted({i for i in ids if ids.count(i) > 1})
+    if dupes:
+        raise ValueError(f"Duplicate prompt_id values: {dupes[:5]}")
 
     with open("prompts.csv", "w", newline="", encoding="utf8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
@@ -201,39 +268,13 @@ def main(path):
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
     print(f"{len(rows)} prompts written")
+    for oid in sorted({r["order_id"] for r in rows}):
+        print(f"  {oid}: {sum(r['order_id'] == oid for r in rows)}")
     for lang in ("EN", "DE"):
-        sample = next(r for r in rows if r["language"] == lang and r["persona"] == "Germany")
+        sample = next(r for r in rows if r["language"] == lang and r["persona"] == "Austria")
         print("\n" + "=" * 60)
         print(sample["prompt_id"])
         print(sample["prompt_text"])
-
-
-# ---------------------------------------------------------------------------
-# Reading answers from logprobs
-# ---------------------------------------------------------------------------
-
-def letter_probabilities(top_logprobs, letters):
-    """Turn next token logprobs into answer probabilities.
-
-    top_logprobs: dict of token string -> logprob for the token right after
-    the answer cue. Tokens with and without a leading space or the sentencepiece
-    marker are added together.
-
-    Returns (probs, outside_mass).
-      probs: raw probability per valid letter.
-      outside_mass: probability not on a valid letter. Use it for refusal
-      tracking. For JSD, divide probs by their sum to renormalize.
-    If you have the full logits, take the softmax over the whole vocabulary.
-    With only top k logprobs, outside_mass includes tokens that were cut off.
-    """
-    probs = {letter: 0.0 for letter in letters}
-    for tok, lp in top_logprobs.items():
-        key = tok.replace("\u2581", "").strip()
-        if key in probs:
-            probs[key] += math.exp(lp)
-    outside = max(0.0, 1.0 - sum(probs.values()))
-    return probs, outside
-
 
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else "conditions.xlsx")
