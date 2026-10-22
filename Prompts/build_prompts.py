@@ -7,12 +7,17 @@ Reads two sheets:
   Items:      official wording per item and language (DE24 and US24)
 
 Writes prompts.csv and prompts.jsonl (one row per condition x item x template x
-option order).
+option order). Every template in TEMPLATES (T1 original, T2 and T3 paraphrases)
+is built for every condition and item, so the Template ID column in the
+Conditions sheet is ignored.
 
-Option orders (see ORDER_VARIANTS below):
+Option orders (see order_variants below):
   official  official order. prompt_id stays C2_Q17a_T1.
   rev       ordinal items, reversed order. prompt_id C2_Q17a_T1_rev.
-  shufN     nominal items, fixed shuffled order. prompt_id C2_Q20_T1_shuf1.
+  rotK      nominal items, official order rotated by K positions, K = 1 to n
+            minus 1. A nominal item with n options gets n orders in total
+            (official plus n minus 1 rotations), so every option appears in
+            every position exactly once. prompt_id C2_Q20_T1_rot1.
 Every variant has its own prompt_id, so results never overwrite each other.
 
 Usage:
@@ -21,7 +26,6 @@ Usage:
 import csv
 import json
 import math
-import random
 import re
 import string
 import sys
@@ -36,14 +40,13 @@ from openpyxl import load_workbook
 # stem from the Items sheet. Both Q34 and Q28a use the neutral stem.
 NEUTRAL_ITEMS = {"Q34", "Q28a"}
 
-# Nominal items can be shuffled later. Ordinal items only get reversed.
+# Nominal items get one order per option (cyclic rotations). Ordinal items only
+# get reversed, because shuffling a scale would change its meaning.
 ITEM_TYPE = {
     "Q1": "ordinal", "Q10d": "ordinal", "Q17a": "ordinal", "Q20": "nominal",
     "Q23a": "nominal", "Q34": "nominal", "Q28a": "ordinal", "Q36a": "ordinal",
 }
 
-# Number of shuffled orders per nominal item. 1 means one extra order (shuf1).
-N_SHUFFLES = 1
 
 # Only the persona sentence and the instruction wording change between
 # templates. Item text, stems and options never change. For paraphrases,
@@ -83,6 +86,66 @@ TEMPLATES = {
                 "none": "",
             },
             "instruction": "Antworten Sie nur mit dem Buchstaben einer Antwortoption.",
+            "cue": "Antwort:",
+        },
+    },
+    # T2 and T3 are paraphrases of T1. Only the persona sentence and the
+    # instruction change. The cue stays identical to T1, because the cue is the
+    # prefill that the logprobs are read after. Changing it would change what
+    # is measured. German keeps the formal "Sie" register of T1.
+    "T2": {
+        "EN": {
+            "persona": {
+                "Germany": "You live in Germany.",
+                "Austria": "You live in Austria.",
+                "Switzerland": "You live in Switzerland.",
+                "US": "You live in the United States.",
+                "Australia": "You live in Australia.",
+                "Canada": "You live in Canada.",
+                "none": "",
+            },
+            "instruction": "Choose one option and reply with its letter only.",
+            "cue": "Answer:",
+        },
+        "DE": {
+            "persona": {
+                "Germany": "Sie leben in Deutschland.",
+                "Austria": "Sie leben in Österreich.",
+                "Switzerland": "Sie leben in der Schweiz.",
+                "US": "Sie leben in den USA.",
+                "Australia": "Sie leben in Australien.",
+                "Canada": "Sie leben in Kanada.",
+                "none": "",
+            },
+            "instruction": "Wählen Sie eine Option und antworten Sie nur mit ihrem Buchstaben.",
+            "cue": "Antwort:",
+        },
+    },
+    "T3": {
+        "EN": {
+            "persona": {
+                "Germany": "You are a resident of Germany.",
+                "Austria": "You are a resident of Austria.",
+                "Switzerland": "You are a resident of Switzerland.",
+                "US": "You are a resident of the United States.",
+                "Australia": "You are a resident of Australia.",
+                "Canada": "You are a resident of Canada.",
+                "none": "",
+            },
+            "instruction": "Give only the letter of your answer.",
+            "cue": "Answer:",
+        },
+        "DE": {
+            "persona": {
+                "Germany": "Sie wohnen in Deutschland.",
+                "Austria": "Sie wohnen in Österreich.",
+                "Switzerland": "Sie wohnen in der Schweiz.",
+                "US": "Sie wohnen in den USA.",
+                "Australia": "Sie wohnen in Australien.",
+                "Canada": "Sie wohnen in Kanada.",
+                "none": "",
+            },
+            "instruction": "Geben Sie nur den Buchstaben Ihrer Antwort an.",
             "cue": "Antwort:",
         },
     },
@@ -132,14 +195,38 @@ def parse_options(cell):
 # Prompt building
 # ---------------------------------------------------------------------------
 
+def check_orders(item_id, n, variants):
+    """Stop the build if the option orders of one item are not valid.
+
+    Checks that every order is a permutation of 0..n-1, that no two orders of
+    the item are identical, and that nominal items form a Latin square (every
+    option appears in every position exactly once).
+    """
+    seen = {}
+    for order_id, order in variants:
+        if sorted(order) != list(range(n)):
+            raise ValueError(f"{item_id} {order_id}: not a permutation of 0..{n - 1}")
+        key = tuple(order)
+        if key in seen:
+            raise ValueError(
+                f"{item_id}: duplicate option order, {order_id} equals {seen[key]}")
+        seen[key] = order_id
+    if ITEM_TYPE.get(item_id, "") == "nominal":
+        for pos in range(n):
+            options_at_pos = sorted(order[pos] for _, order in variants)
+            if options_at_pos != list(range(n)):
+                raise ValueError(
+                    f"{item_id}: position {pos} is not balanced across orders")
+
+
 def order_variants(item_id, n):
     """Return a list of (order_id, order) for one item.
 
     official is always first. Ordinal items get one reversed order. Nominal
-    items get N_SHUFFLES shuffled orders. The shuffle depends only on the item
-    ID and the shuffle number, so every condition (all languages and personas)
-    sees the same shuffled order for the same item. Shuffles are never the
-    official order.
+    items get n orders in total: official plus the n minus 1 cyclic rotations
+    (rot1 starts at the second option, rot2 at the third, and so on). Rotations
+    do not use randomness, so every condition (all languages, personas and
+    templates) sees exactly the same orders for the same item.
     """
     base = list(range(n))
     variants = [("official", base)]
@@ -147,12 +234,9 @@ def order_variants(item_id, n):
     if kind == "ordinal":
         variants.append(("rev", base[::-1]))
     elif kind == "nominal":
-        for k in range(1, N_SHUFFLES + 1):
-            rng = random.Random(f"{item_id}_shuf{k}")
-            order = base[:]
-            while order == base:
-                rng.shuffle(order)
-            variants.append((f"shuf{k}", order))
+        for k in range(1, n):
+            variants.append((f"rot{k}", base[k:] + base[:k]))
+    check_orders(item_id, n, variants)
     return variants
 
 
@@ -222,37 +306,44 @@ def main(path):
     conditions = read_sheet(wb, "Conditions")
     items = {(r["Item ID"], r["Language"]): r for r in read_sheet(wb, "Items")}
 
-    rows = []
+    # One base row per condition x item. The Template ID column is ignored,
+    # all templates are built below.
+    base_conditions = {}
     for cond in conditions:
+        base_conditions.setdefault((cond["Condition ID"], cond["Item ID"]), cond)
+
+    rows = []
+    for cond in base_conditions.values():
         key = (cond["Item ID"], cond["Language"])
         if key not in items:
             raise KeyError(f"No Items row for {key}")
         item = items[key]
-        if cond["Persona"] not in TEMPLATES[cond["Template ID"]][cond["Language"]]["persona"]:
-            raise KeyError(
-                f"Persona '{cond['Persona']}' has no sentence for "
-                f"{cond['Template ID']} {cond['Language']}. Add it to TEMPLATES.")
         n_opts = len(parse_options(item["Options (official order)"]))
-        for order_id, order in order_variants(cond["Item ID"], n_opts):
-            built = build_prompt(item, cond, cond["Template ID"], order)
-            base_id = f"{cond['Condition ID']}_{cond['Item ID']}_{cond['Template ID']}"
-            rows.append({
-                "prompt_id": base_id if order_id == "official" else f"{base_id}_{order_id}",
-                "condition_id": cond["Condition ID"],
-                "item_id": cond["Item ID"],
-                "language": cond["Language"],
-                "persona": cond["Persona"],
-                "template_id": cond["Template ID"],
-                "scale_type": ITEM_TYPE.get(cond["Item ID"], ""),
-                "n_options": built["n_options"],
-                "letters": "".join(built["letters"]),
-                "letter_to_original": json.dumps(built["letter_to_original"]),
-                "user_text": built["user_text"],
-                "assistant_prefill": built["assistant_prefill"],
-                "prompt_text": built["prompt_text"],
-                "order_id": order_id,
-                "option_order": json.dumps(order),
-            })
+        for template_id in TEMPLATES:
+            if cond["Persona"] not in TEMPLATES[template_id][cond["Language"]]["persona"]:
+                raise KeyError(
+                    f"Persona '{cond['Persona']}' has no sentence for "
+                    f"{template_id} {cond['Language']}. Add it to TEMPLATES.")
+            for order_id, order in order_variants(cond["Item ID"], n_opts):
+                built = build_prompt(item, cond, template_id, order)
+                base_id = f"{cond['Condition ID']}_{cond['Item ID']}_{template_id}"
+                rows.append({
+                    "prompt_id": base_id if order_id == "official" else f"{base_id}_{order_id}",
+                    "condition_id": cond["Condition ID"],
+                    "item_id": cond["Item ID"],
+                    "language": cond["Language"],
+                    "persona": cond["Persona"],
+                    "template_id": template_id,
+                    "scale_type": ITEM_TYPE.get(cond["Item ID"], ""),
+                    "n_options": built["n_options"],
+                    "letters": "".join(built["letters"]),
+                    "letter_to_original": json.dumps(built["letter_to_original"]),
+                    "user_text": built["user_text"],
+                    "assistant_prefill": built["assistant_prefill"],
+                    "prompt_text": built["prompt_text"],
+                    "order_id": order_id,
+                    "option_order": json.dumps(order),
+                })
 
     ids = [r["prompt_id"] for r in rows]
     dupes = sorted({i for i in ids if ids.count(i) > 1})
@@ -270,11 +361,16 @@ def main(path):
     print(f"{len(rows)} prompts written")
     for oid in sorted({r["order_id"] for r in rows}):
         print(f"  {oid}: {sum(r['order_id'] == oid for r in rows)}")
-    for lang in ("EN", "DE"):
-        sample = next(r for r in rows if r["language"] == lang and r["persona"] == "Austria")
-        print("\n" + "=" * 60)
-        print(sample["prompt_id"])
-        print(sample["prompt_text"])
+    for tid in TEMPLATES:
+        print(f"  {tid}: {sum(r['template_id'] == tid for r in rows)}")
+    for tid in TEMPLATES:
+        for lang in ("EN", "DE"):
+            sample = next(r for r in rows if r["language"] == lang
+                          and r["persona"] == "Austria" and r["template_id"] == tid
+                          and r["order_id"] == "official")
+            print("\n" + "=" * 60)
+            print(sample["prompt_id"])
+            print(sample["prompt_text"])
 
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else "conditions.xlsx")
