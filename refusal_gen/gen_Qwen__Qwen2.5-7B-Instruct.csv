@@ -1,0 +1,227 @@
+model,prompt_id,language,persona,item_id,template_id,order_id,source,mode,n_options,generated_text,label
+Qwen/Qwen2.5-7B-Instruct,C9_Q34_T2_rot2,DE,Australia,Q34,T2,rot2,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q34_T2_rot2,DE,Australia,Q34,T2,rot2,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q20_T2,DE,Australia,Q20,T2,official,sample,prefill,6, C,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q20_T2,DE,Australia,Q20,T2,official,sample,free,6,C,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q36a_T2_rev,DE,Australia,Q36a,T2,rev,sample,prefill,11, J,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q36a_T2_rev,DE,Australia,Q36a,T2,rev,sample,free,11,J,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q36a_T3_rev,DE,Australia,Q36a,T3,rev,sample,prefill,11, J,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q36a_T3_rev,DE,Australia,Q36a,T3,rev,sample,free,11,J,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q34_T1,DE,Australia,Q34,T1,official,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q34_T1,DE,Australia,Q34,T1,official,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q23a_T2_rot3,DE,Australia,Q23a,T2,rot3,sample,prefill,4, D,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q23a_T2_rot3,DE,Australia,Q23a,T2,rot3,sample,free,4,D,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q36a_T1_rev,DE,Australia,Q36a,T1,rev,sample,prefill,11, D,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q36a_T1_rev,DE,Australia,Q36a,T1,rev,sample,free,11,D,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q20_T2_rot2,DE,Australia,Q20,T2,rot2,sample,prefill,6, C,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q20_T2_rot2,DE,Australia,Q20,T2,rot2,sample,free,6,C,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q23a_T3_rot3,DE,Austria,Q23a,T3,rot3,sample,prefill,4, C,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q23a_T3_rot3,DE,Austria,Q23a,T3,rot3,sample,free,4,D,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q28a_T3,DE,Austria,Q28a,T3,official,sample,prefill,4, C,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q28a_T3,DE,Austria,Q28a,T3,official,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q20_T2_rot5,DE,Austria,Q20,T2,rot5,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q20_T2_rot5,DE,Austria,Q20,T2,rot5,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q20_T3_rot2,DE,Austria,Q20,T3,rot2,sample,prefill,6, C,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q20_T3_rot2,DE,Austria,Q20,T3,rot2,sample,free,6,A,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q23a_T3_rot2,DE,Austria,Q23a,T3,rot2,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q23a_T3_rot2,DE,Austria,Q23a,T3,rot2,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q36a_T3,DE,Austria,Q36a,T3,official,sample,prefill,11, J,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q36a_T3,DE,Austria,Q36a,T3,official,sample,free,11,J,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q20_T3_rot5,DE,Austria,Q20,T3,rot5,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q20_T3_rot5,DE,Austria,Q20,T3,rot5,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q23a_T2_rot1,DE,Austria,Q23a,T2,rot1,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C7_Q23a_T2_rot1,DE,Austria,Q23a,T2,rot1,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q23a_T2,DE,Canada,Q23a,T2,official,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q23a_T2,DE,Canada,Q23a,T2,official,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q23a_T1,DE,Canada,Q23a,T1,official,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q23a_T1,DE,Canada,Q23a,T1,official,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q28a_T3,DE,Canada,Q28a,T3,official,sample,prefill,4, C,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q28a_T3,DE,Canada,Q28a,T3,official,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q36a_T1,DE,Canada,Q36a,T1,official,sample,prefill,11, J,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q36a_T1,DE,Canada,Q36a,T1,official,sample,free,11,J,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q28a_T2_rev,DE,Canada,Q28a,T2,rev,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q28a_T2_rev,DE,Canada,Q28a,T2,rev,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q20_T3_rot3,DE,Canada,Q20,T3,rot3,sample,prefill,6, B,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q20_T3_rot3,DE,Canada,Q20,T3,rot3,sample,free,6,B,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q23a_T2_rot2,DE,Canada,Q23a,T2,rot2,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q23a_T2_rot2,DE,Canada,Q23a,T2,rot2,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q20_T2_rot4,DE,Canada,Q20,T2,rot4,sample,prefill,6, A,answer
+Qwen/Qwen2.5-7B-Instruct,C10_Q20_T2_rot4,DE,Canada,Q20,T2,rot4,sample,free,6,A,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q20_T1_rot5,DE,Germany,Q20,T1,rot5,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q20_T1_rot5,DE,Germany,Q20,T1,rot5,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q34_T2_rot1,DE,Germany,Q34,T2,rot1,sample,prefill,4, D,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q34_T2_rot1,DE,Germany,Q34,T2,rot1,sample,free,4,D,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q36a_T3_rev,DE,Germany,Q36a,T3,rev,sample,prefill,11, J,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q36a_T3_rev,DE,Germany,Q36a,T3,rev,sample,free,11,J,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q28a_T2_rev,DE,Germany,Q28a,T2,rev,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q28a_T2_rev,DE,Germany,Q28a,T2,rev,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q17a_T3_rev,DE,Germany,Q17a,T3,rev,sample,prefill,5, D,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q17a_T3_rev,DE,Germany,Q17a,T3,rev,sample,free,5,D,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q1_T1_rev,DE,Germany,Q1,T1,rev,sample,prefill,7, C,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q1_T1_rev,DE,Germany,Q1,T1,rev,sample,free,7,F,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q17a_T2_rev,DE,Germany,Q17a,T2,rev,sample,prefill,5, D,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q17a_T2_rev,DE,Germany,Q17a,T2,rev,sample,free,5,D,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q34_T1_rot2,DE,Germany,Q34,T1,rot2,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C2_Q34_T1_rot2,DE,Germany,Q34,T1,rot2,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q28a_T1_rev,DE,Switzerland,Q28a,T1,rev,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q28a_T1_rev,DE,Switzerland,Q28a,T1,rev,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q23a_T3_rot2,DE,Switzerland,Q23a,T3,rot2,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q23a_T3_rot2,DE,Switzerland,Q23a,T3,rot2,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q10d_T2_rev,DE,Switzerland,Q10d,T2,rev,sample,prefill,5, D,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q10d_T2_rev,DE,Switzerland,Q10d,T2,rev,sample,free,5,D,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q28a_T3_rev,DE,Switzerland,Q28a,T3,rev,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q28a_T3_rev,DE,Switzerland,Q28a,T3,rev,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q20_T2_rot5,DE,Switzerland,Q20,T2,rot5,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q20_T2_rot5,DE,Switzerland,Q20,T2,rot5,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q20_T1_rot3,DE,Switzerland,Q20,T1,rot3,sample,prefill,6, B,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q20_T1_rot3,DE,Switzerland,Q20,T1,rot3,sample,free,6,B,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q34_T3_rot3,DE,Switzerland,Q34,T3,rot3,sample,prefill,4, D,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q34_T3_rot3,DE,Switzerland,Q34,T3,rot3,sample,free,4,D,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q34_T2_rot1,DE,Switzerland,Q34,T2,rot1,sample,prefill,4, D,answer
+Qwen/Qwen2.5-7B-Instruct,C8_Q34_T2_rot1,DE,Switzerland,Q34,T2,rot1,sample,free,4,D,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q34_T1_rot2,DE,US,Q34,T1,rot2,sample,prefill,4, C,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q34_T1_rot2,DE,US,Q34,T1,rot2,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q23a_T1,DE,US,Q23a,T1,official,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q23a_T1,DE,US,Q23a,T1,official,sample,free,4,B,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q1_T3_rev,DE,US,Q1,T3,rev,sample,prefill,7, C,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q1_T3_rev,DE,US,Q1,T3,rev,sample,free,7,D,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q23a_T1_rot2,DE,US,Q23a,T1,rot2,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q23a_T1_rot2,DE,US,Q23a,T1,rot2,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q23a_T3,DE,US,Q23a,T3,official,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q23a_T3,DE,US,Q23a,T3,official,sample,free,4,B,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q20_T3_rot2,DE,US,Q20,T3,rot2,sample,prefill,6, C,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q20_T3_rot2,DE,US,Q20,T3,rot2,sample,free,6,C,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q34_T3_rot2,DE,US,Q34,T3,rot2,sample,prefill,4, C,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q34_T3_rot2,DE,US,Q34,T3,rot2,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q1_T2,DE,US,Q1,T2,official,sample,prefill,7, A,answer
+Qwen/Qwen2.5-7B-Instruct,C3_Q1_T2,DE,US,Q1,T2,official,sample,free,7,B,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q23a_T2,DE,none,Q23a,T2,official,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q23a_T2,DE,none,Q23a,T2,official,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q34_T2,DE,none,Q34,T2,official,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q34_T2,DE,none,Q34,T2,official,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q10d_T3_rev,DE,none,Q10d,T3,rev,sample,prefill,5, D,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q10d_T3_rev,DE,none,Q10d,T3,rev,sample,free,5,D,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q36a_T2_rev,DE,none,Q36a,T2,rev,sample,prefill,11, J,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q36a_T2_rev,DE,none,Q36a,T2,rev,sample,free,11,D,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q1_T3_rev,DE,none,Q1,T3,rev,sample,prefill,7, C,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q1_T3_rev,DE,none,Q1,T3,rev,sample,free,7,C,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q17a_T1_rev,DE,none,Q17a,T1,rev,sample,prefill,5, D,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q17a_T1_rev,DE,none,Q17a,T1,rev,sample,free,5,D,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q20_T3_rot2,DE,none,Q20,T3,rot2,sample,prefill,6, C,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q20_T3_rot2,DE,none,Q20,T3,rot2,sample,free,6,C,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q17a_T3_rev,DE,none,Q17a,T3,rev,sample,prefill,5, D,answer
+Qwen/Qwen2.5-7B-Instruct,C1_Q17a_T3_rev,DE,none,Q17a,T3,rev,sample,free,5,D,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q1_T3_rev,EN,Australia,Q1,T3,rev,sample,prefill,7, F,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q1_T3_rev,EN,Australia,Q1,T3,rev,sample,free,7,F,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q20_T3_rot5,EN,Australia,Q20,T3,rot5,sample,prefill,6, F,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q20_T3_rot5,EN,Australia,Q20,T3,rot5,sample,free,6,F,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q34_T1_rot2,EN,Australia,Q34,T1,rot2,sample,prefill,4, C,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q34_T1_rot2,EN,Australia,Q34,T1,rot2,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q28a_T1_rev,EN,Australia,Q28a,T1,rev,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q28a_T1_rev,EN,Australia,Q28a,T1,rev,sample,free,4,B,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q10d_T2_rev,EN,Australia,Q10d,T2,rev,sample,prefill,5, D,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q10d_T2_rev,EN,Australia,Q10d,T2,rev,sample,free,5,D,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q17a_T2,EN,Australia,Q17a,T2,official,sample,prefill,5, B,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q17a_T2,EN,Australia,Q17a,T2,official,sample,free,5,A,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q23a_T2_rot3,EN,Australia,Q23a,T2,rot3,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q23a_T2_rot3,EN,Australia,Q23a,T2,rot3,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q23a_T2,EN,Australia,Q23a,T2,official,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C13_Q23a_T2,EN,Australia,Q23a,T2,official,sample,free,4,D,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q10d_T3_rev,EN,Austria,Q10d,T3,rev,sample,prefill,5, D,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q10d_T3_rev,EN,Austria,Q10d,T3,rev,sample,free,5,D,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q34_T3_rot2,EN,Austria,Q34,T3,rot2,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q34_T3_rot2,EN,Austria,Q34,T3,rot2,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q20_T3_rot5,EN,Austria,Q20,T3,rot5,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q20_T3_rot5,EN,Austria,Q20,T3,rot5,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q36a_T1,EN,Austria,Q36a,T1,official,sample,prefill,11, J,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q36a_T1,EN,Austria,Q36a,T1,official,sample,free,11,H,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q28a_T3,EN,Austria,Q28a,T3,official,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q28a_T3,EN,Austria,Q28a,T3,official,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q1_T2_rev,EN,Austria,Q1,T2,rev,sample,prefill,7, D,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q1_T2_rev,EN,Austria,Q1,T2,rev,sample,free,7,D,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q23a_T1_rot1,EN,Austria,Q23a,T1,rot1,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q23a_T1_rot1,EN,Austria,Q23a,T1,rot1,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q23a_T1_rot2,EN,Austria,Q23a,T1,rot2,sample,prefill,4, C,answer
+Qwen/Qwen2.5-7B-Instruct,C11_Q23a_T1_rot2,EN,Austria,Q23a,T1,rot2,sample,free,4,B,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q20_T3_rot3,EN,Canada,Q20,T3,rot3,sample,prefill,6, B,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q20_T3_rot3,EN,Canada,Q20,T3,rot3,sample,free,6,B,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q20_T2_rot3,EN,Canada,Q20,T2,rot3,sample,prefill,6, B,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q20_T2_rot3,EN,Canada,Q20,T2,rot3,sample,free,6,B,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q23a_T2,EN,Canada,Q23a,T2,official,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q23a_T2,EN,Canada,Q23a,T2,official,sample,free,4,D,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q20_T2_rot4,EN,Canada,Q20,T2,rot4,sample,prefill,6, A,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q20_T2_rot4,EN,Canada,Q20,T2,rot4,sample,free,6,A,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q20_T2_rot1,EN,Canada,Q20,T2,rot1,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q20_T2_rot1,EN,Canada,Q20,T2,rot1,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q23a_T3_rot2,EN,Canada,Q23a,T3,rot2,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q23a_T3_rot2,EN,Canada,Q23a,T3,rot2,sample,free,4,B,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q23a_T1_rot3,EN,Canada,Q23a,T1,rot3,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q23a_T1_rot3,EN,Canada,Q23a,T1,rot3,sample,free,4,B,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q20_T1_rot1,EN,Canada,Q20,T1,rot1,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C14_Q20_T1_rot1,EN,Canada,Q20,T1,rot1,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q36a_T3,EN,Germany,Q36a,T3,official,sample,prefill,11, J,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q36a_T3,EN,Germany,Q36a,T3,official,sample,free,11,J,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q20_T3_rot4,EN,Germany,Q20,T3,rot4,sample,prefill,6, A,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q20_T3_rot4,EN,Germany,Q20,T3,rot4,sample,free,6,A,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q20_T2_rot5,EN,Germany,Q20,T2,rot5,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q20_T2_rot5,EN,Germany,Q20,T2,rot5,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q34_T2,EN,Germany,Q34,T2,official,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q34_T2,EN,Germany,Q34,T2,official,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q17a_T2,EN,Germany,Q17a,T2,official,sample,prefill,5, B,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q17a_T2,EN,Germany,Q17a,T2,official,sample,free,5,A,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q23a_T1_rot3,EN,Germany,Q23a,T1,rot3,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q23a_T1_rot3,EN,Germany,Q23a,T1,rot3,sample,free,4,B,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q20_T3_rot1,EN,Germany,Q20,T3,rot1,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q20_T3_rot1,EN,Germany,Q20,T3,rot1,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q34_T3_rot2,EN,Germany,Q34,T3,rot2,sample,prefill,4, C,answer
+Qwen/Qwen2.5-7B-Instruct,C5_Q34_T3_rot2,EN,Germany,Q34,T3,rot2,sample,free,4,C,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q20_T3_rot5,EN,Switzerland,Q20,T3,rot5,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q20_T3_rot5,EN,Switzerland,Q20,T3,rot5,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q23a_T1,EN,Switzerland,Q23a,T1,official,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q23a_T1,EN,Switzerland,Q23a,T1,official,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q20_T3_rot2,EN,Switzerland,Q20,T3,rot2,sample,prefill,6, C,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q20_T3_rot2,EN,Switzerland,Q20,T3,rot2,sample,free,6,C,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q1_T2,EN,Switzerland,Q1,T2,official,sample,prefill,7, B,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q1_T2,EN,Switzerland,Q1,T2,official,sample,free,7,A,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q20_T1_rot5,EN,Switzerland,Q20,T1,rot5,sample,prefill,6, D,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q20_T1_rot5,EN,Switzerland,Q20,T1,rot5,sample,free,6,D,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q36a_T2,EN,Switzerland,Q36a,T2,official,sample,prefill,11, J,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q36a_T2,EN,Switzerland,Q36a,T2,official,sample,free,11,J,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q23a_T3,EN,Switzerland,Q23a,T3,official,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q23a_T3,EN,Switzerland,Q23a,T3,official,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q36a_T1_rev,EN,Switzerland,Q36a,T1,rev,sample,prefill,11, A,answer
+Qwen/Qwen2.5-7B-Instruct,C12_Q36a_T1_rev,EN,Switzerland,Q36a,T1,rev,sample,free,11,D,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q20_T2,EN,US,Q20,T2,official,sample,prefill,6, E,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q20_T2,EN,US,Q20,T2,official,sample,free,6,E,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q23a_T1,EN,US,Q23a,T1,official,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q23a_T1,EN,US,Q23a,T1,official,sample,free,4,B,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q17a_T2,EN,US,Q17a,T2,official,sample,prefill,5, B,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q17a_T2,EN,US,Q17a,T2,official,sample,free,5,A,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q1_T3,EN,US,Q1,T3,official,sample,prefill,7, A,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q1_T3,EN,US,Q1,T3,official,sample,free,7,A,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q28a_T2_rev,EN,US,Q28a,T2,rev,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q28a_T2_rev,EN,US,Q28a,T2,rev,sample,free,4,B,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q1_T2_rev,EN,US,Q1,T2,rev,sample,prefill,7, D,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q1_T2_rev,EN,US,Q1,T2,rev,sample,free,7,F,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q34_T2,EN,US,Q34,T2,official,sample,prefill,4, A,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q34_T2,EN,US,Q34,T2,official,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q17a_T3_rev,EN,US,Q17a,T3,rev,sample,prefill,5, D,answer
+Qwen/Qwen2.5-7B-Instruct,C6_Q17a_T3_rev,EN,US,Q17a,T3,rev,sample,free,5,D,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q36a_T1_rev,EN,none,Q36a,T1,rev,sample,prefill,11, D,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q36a_T1_rev,EN,none,Q36a,T1,rev,sample,free,11,D,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q23a_T3_rot3,EN,none,Q23a,T3,rot3,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q23a_T3_rot3,EN,none,Q23a,T3,rot3,sample,free,4,A,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q20_T2,EN,none,Q20,T2,official,sample,prefill,6, E,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q20_T2,EN,none,Q20,T2,official,sample,free,6,E,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q36a_T3_rev,EN,none,Q36a,T3,rev,sample,prefill,11, A,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q36a_T3_rev,EN,none,Q36a,T3,rev,sample,free,11,D,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q28a_T2_rev,EN,none,Q28a,T2,rev,sample,prefill,4, B,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q28a_T2_rev,EN,none,Q28a,T2,rev,sample,free,4,B,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q1_T2_rev,EN,none,Q1,T2,rev,sample,prefill,7, D,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q1_T2_rev,EN,none,Q1,T2,rev,sample,free,7,D,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q36a_T1,EN,none,Q36a,T1,official,sample,prefill,11, J,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q36a_T1,EN,none,Q36a,T1,official,sample,free,11,J,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q17a_T2,EN,none,Q17a,T2,official,sample,prefill,5, B,answer
+Qwen/Qwen2.5-7B-Instruct,C4_Q17a_T2,EN,none,Q17a,T2,official,sample,free,5,B,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q36a_T1,DE,Australia,Q36a,T1,official,flagged,prefill,11, I,answer
+Qwen/Qwen2.5-7B-Instruct,C9_Q36a_T1,DE,Australia,Q36a,T1,official,flagged,free,11,J,answer

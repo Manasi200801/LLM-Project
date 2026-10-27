@@ -1,0 +1,8 @@
+model,language,top1_category,top1_token,n,mean_prob
+meta-llama/Llama-3.1-8B,DE,whitespace," 
+
+",104,0.1437
+meta-llama/Llama-3.1-8B,EN,other_word,<|end_of_text|>,75,0.1487
+meta-llama/Llama-3.1-8B,DE,other_word,<|end_of_text|>,13,0.1138
+meta-llama/Llama-3.1-8B,DE,formatting, __,4,0.1341
+meta-llama/Llama-3.1-8B,DE,formatting, [,1,0.121

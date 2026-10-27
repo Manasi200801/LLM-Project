@@ -1,0 +1,328 @@
+model,prompt_id,language,persona,item_id,template_id,order_id,source,mode,n_options,generated_text,label
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q34_T2_rot2,DE,Australia,Q34,T2,rot2,sample,prefill,4,A. Arme haben mehr Vorteile als Reiche,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q34_T2_rot2,DE,Australia,Q34,T2,rot2,sample,free,4,C. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q20_T2,DE,Australia,Q20,T2,official,sample,prefill,6,E,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q20_T2,DE,Australia,Q20,T2,official,sample,free,6,A. Soziale Medien,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q36a_T2_rev,DE,Australia,Q36a,T2,rev,sample,prefill,11,A,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q36a_T2_rev,DE,Australia,Q36a,T2,rev,sample,free,11,"A. 10 = Vollkommen wohl
+B. 9
+C. 8
+D. 7
+E. 6
+F. 5
+G. 4
+",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q36a_T3_rev,DE,Australia,Q36a,T3,rev,sample,prefill,11,A. 10 = Vollkommen wohl,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q36a_T3_rev,DE,Australia,Q36a,T3,rev,sample,free,11,"A. K
+B. D
+C. E
+D. G
+E. I
+F. J
+G. K
+H. L
+I. M
+J. N
+",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q34_T1,DE,Australia,Q34,T1,official,sample,prefill,4,A. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q34_T1,DE,Australia,Q34,T1,official,sample,free,4,A. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q23a_T2_rot3,DE,Australia,Q23a,T2,rot3,sample,prefill,4,C. Online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q23a_T2_rot3,DE,Australia,Q23a,T2,rot3,sample,free,4,C. Online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q36a_T1_rev,DE,Australia,Q36a,T1,rev,sample,prefill,11,A. 10 = Vollkommen wohl,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q36a_T1_rev,DE,Australia,Q36a,T1,rev,sample,free,11,"A. 10 = Vollkommen wohl
+B. 9
+C. 8
+D. 7
+E. 6
+F. 5
+G. 4
+",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q20_T2_rot2,DE,Australia,Q20,T2,rot2,sample,prefill,6,E. Soziale Medien,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C9_Q20_T2_rot2,DE,Australia,Q20,T2,rot2,sample,free,6,A. Zeitungen (gedruckt oder online),answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q23a_T3_rot3,DE,Austria,Q23a,T3,rot3,sample,prefill,4,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q23a_T3_rot3,DE,Austria,Q23a,T3,rot3,sample,free,4,C. Online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q28a_T3,DE,Austria,Q28a,T3,official,sample,prefill,4,C. Eher nein,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q28a_T3,DE,Austria,Q28a,T3,official,sample,free,4,D. Auf keinen Fall,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q20_T2_rot5,DE,Austria,Q20,T2,rot5,sample,prefill,6,D,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q20_T2_rot5,DE,Austria,Q20,T2,rot5,sample,free,6,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q20_T3_rot2,DE,Austria,Q20,T3,rot2,sample,prefill,6,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q20_T3_rot2,DE,Austria,Q20,T3,rot2,sample,free,6,"C. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q23a_T3_rot2,DE,Austria,Q23a,T3,rot2,sample,prefill,4,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q23a_T3_rot2,DE,Austria,Q23a,T3,rot2,sample,free,4,A. Beides,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q36a_T3,DE,Austria,Q36a,T3,official,sample,prefill,11,A. 0 = Vollkommen unwohl,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q36a_T3,DE,Austria,Q36a,T3,official,sample,free,11,"A. 0
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q20_T3_rot5,DE,Austria,Q20,T3,rot5,sample,prefill,6,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q20_T3_rot5,DE,Austria,Q20,T3,rot5,sample,free,6,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q23a_T2_rot1,DE,Austria,Q23a,T2,rot1,sample,prefill,4,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C7_Q23a_T2_rot1,DE,Austria,Q23a,T2,rot1,sample,free,4,D,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q23a_T2,DE,Canada,Q23a,T2,official,sample,prefill,4,C. Beides,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q23a_T2,DE,Canada,Q23a,T2,official,sample,free,4,A. Offline,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q23a_T1,DE,Canada,Q23a,T1,official,sample,prefill,4,A,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q23a_T1,DE,Canada,Q23a,T1,official,sample,free,4,A. Offline,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q28a_T3,DE,Canada,Q28a,T3,official,sample,prefill,4,C. Eher nein,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q28a_T3,DE,Canada,Q28a,T3,official,sample,free,4,D. Auf keinen Fall,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q36a_T1,DE,Canada,Q36a,T1,official,sample,prefill,11,A. 0 = Vollkommen unwohl,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q36a_T1,DE,Canada,Q36a,T1,official,sample,free,11,"A. 0 = Vollkommen unwohl
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q28a_T2_rev,DE,Canada,Q28a,T2,rev,sample,prefill,4,C. Eher ja,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q28a_T2_rev,DE,Canada,Q28a,T2,rev,sample,free,4,D. Auf jeden Fall,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q20_T3_rot3,DE,Canada,Q20,T3,rot3,sample,prefill,6,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q20_T3_rot3,DE,Canada,Q20,T3,rot3,sample,free,6,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q23a_T2_rot2,DE,Canada,Q23a,T2,rot2,sample,prefill,4,C. Offline,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q23a_T2_rot2,DE,Canada,Q23a,T2,rot2,sample,free,4,A. Beides,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q20_T2_rot4,DE,Canada,Q20,T2,rot4,sample,prefill,6,A,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C10_Q20_T2_rot4,DE,Canada,Q20,T2,rot4,sample,free,6,A. Websites,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q20_T1_rot5,DE,Germany,Q20,T1,rot5,sample,prefill,6,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q20_T1_rot5,DE,Germany,Q20,T1,rot5,sample,free,6,D. Zeitungen (gedruckt oder online),answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q34_T2_rot1,DE,Germany,Q34,T2,rot1,sample,prefill,4,A. Reiche und Arme haben gleichermaßen Vorteile,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q34_T2_rot1,DE,Germany,Q34,T2,rot1,sample,free,4,A. Reiche und Arme haben gleichermaßen Vorteile,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q36a_T3_rev,DE,Germany,Q36a,T3,rev,sample,prefill,11,A. 10 = Vollkommen wohl,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q36a_T3_rev,DE,Germany,Q36a,T3,rev,sample,free,11,"A. K
+B. D
+C. E
+D. G
+E. I
+F. J
+G. K
+H. L
+I. M
+J. N
+",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q28a_T2_rev,DE,Germany,Q28a,T2,rev,sample,prefill,4,C. Eher ja,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q28a_T2_rev,DE,Germany,Q28a,T2,rev,sample,free,4,D. Auf jeden Fall,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q17a_T3_rev,DE,Germany,Q17a,T3,rev,sample,prefill,5,D. Stimme zu,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q17a_T3_rev,DE,Germany,Q17a,T3,rev,sample,free,5,D. Stimme zu,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q1_T1_rev,DE,Germany,Q1,T1,rev,sample,prefill,7,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q1_T1_rev,DE,Germany,Q1,T1,rev,sample,free,7,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q17a_T2_rev,DE,Germany,Q17a,T2,rev,sample,prefill,5,D. Stimme zu,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q17a_T2_rev,DE,Germany,Q17a,T2,rev,sample,free,5,D. Stimme zu,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q34_T1_rot2,DE,Germany,Q34,T1,rot2,sample,prefill,4,A. Arme haben mehr Vorteile als Reiche,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C2_Q34_T1_rot2,DE,Germany,Q34,T1,rot2,sample,free,4,C. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q28a_T1_rev,DE,Switzerland,Q28a,T1,rev,sample,prefill,4,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q28a_T1_rev,DE,Switzerland,Q28a,T1,rev,sample,free,4,A. Auf keinen Fall,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q23a_T3_rot2,DE,Switzerland,Q23a,T3,rot2,sample,prefill,4,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q23a_T3_rot2,DE,Switzerland,Q23a,T3,rot2,sample,free,4,A. Beides,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q10d_T2_rev,DE,Switzerland,Q10d,T2,rev,sample,prefill,5,D. Gut,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q10d_T2_rev,DE,Switzerland,Q10d,T2,rev,sample,free,5,D. Gut,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q28a_T3_rev,DE,Switzerland,Q28a,T3,rev,sample,prefill,4,C. Eher ja,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q28a_T3_rev,DE,Switzerland,Q28a,T3,rev,sample,free,4,A. Auf keinen Fall,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q20_T2_rot5,DE,Switzerland,Q20,T2,rot5,sample,prefill,6,D. Zeitungen (gedruckt oder online),answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q20_T2_rot5,DE,Switzerland,Q20,T2,rot5,sample,free,6,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q20_T1_rot3,DE,Switzerland,Q20,T1,rot3,sample,prefill,6,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q20_T1_rot3,DE,Switzerland,Q20,T1,rot3,sample,free,6,"B. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q34_T3_rot3,DE,Switzerland,Q34,T3,rot3,sample,prefill,4,B. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q34_T3_rot3,DE,Switzerland,Q34,T3,rot3,sample,free,4,B. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q34_T2_rot1,DE,Switzerland,Q34,T2,rot1,sample,prefill,4,A. Reiche und Arme haben gleichermaßen Vorteile,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C8_Q34_T2_rot1,DE,Switzerland,Q34,T2,rot1,sample,free,4,A. Reiche und Arme haben gleichermaßen Vorteile,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q34_T1_rot2,DE,US,Q34,T1,rot2,sample,prefill,4,A. Arme haben mehr Vorteile als Reiche,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q34_T1_rot2,DE,US,Q34,T1,rot2,sample,free,4,C. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q23a_T1,DE,US,Q23a,T1,official,sample,prefill,4,A,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q23a_T1,DE,US,Q23a,T1,official,sample,free,4,A. Offline,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q1_T3_rev,DE,US,Q1,T3,rev,sample,prefill,7,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q1_T3_rev,DE,US,Q1,T3,rev,sample,free,7,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q23a_T1_rot2,DE,US,Q23a,T1,rot2,sample,prefill,4,A.,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q23a_T1_rot2,DE,US,Q23a,T1,rot2,sample,free,4,A. Beides,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q23a_T3,DE,US,Q23a,T3,official,sample,prefill,4,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q23a_T3,DE,US,Q23a,T3,official,sample,free,4,A. Offline,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q20_T3_rot2,DE,US,Q20,T3,rot2,sample,prefill,6,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q20_T3_rot2,DE,US,Q20,T3,rot2,sample,free,6,"C. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q34_T3_rot2,DE,US,Q34,T3,rot2,sample,prefill,4,C. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q34_T3_rot2,DE,US,Q34,T3,rot2,sample,free,4,C. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q1_T2,DE,US,Q1,T2,official,sample,prefill,7,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C3_Q1_T2,DE,US,Q1,T2,official,sample,free,7,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q23a_T2,DE,none,Q23a,T2,official,sample,prefill,4,C. Beides,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q23a_T2,DE,none,Q23a,T2,official,sample,free,4,A. Offline,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q34_T2,DE,none,Q34,T2,official,sample,prefill,4,A. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q34_T2,DE,none,Q34,T2,official,sample,free,4,A. Reiche haben mehr Vorteile als Arme,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q10d_T3_rev,DE,none,Q10d,T3,rev,sample,prefill,5,D. Gut,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q10d_T3_rev,DE,none,Q10d,T3,rev,sample,free,5,E. Sehr gut,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q36a_T2_rev,DE,none,Q36a,T2,rev,sample,prefill,11,A,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q36a_T2_rev,DE,none,Q36a,T2,rev,sample,free,11,"A. 10 = Vollkommen wohl
+B. 9
+C. 8
+D. 7
+E. 6
+F. 5
+G. 4
+",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q1_T3_rev,DE,none,Q1,T3,rev,sample,prefill,7,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q1_T3_rev,DE,none,Q1,T3,rev,sample,free,7,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q17a_T1_rev,DE,none,Q17a,T1,rev,sample,prefill,5,D. Stimme zu,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q17a_T1_rev,DE,none,Q17a,T1,rev,sample,free,5,D. Stimme zu,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q20_T3_rot2,DE,none,Q20,T3,rot2,sample,prefill,6,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q20_T3_rot2,DE,none,Q20,T3,rot2,sample,free,6,"C. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q17a_T3_rev,DE,none,Q17a,T3,rev,sample,prefill,5,D. Stimme zu,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C1_Q17a_T3_rev,DE,none,Q17a,T3,rev,sample,free,5,D. Stimme zu,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q1_T3_rev,EN,Australia,Q1,T3,rev,sample,prefill,7,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q1_T3_rev,EN,Australia,Q1,T3,rev,sample,free,7,F. Several times a day,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q20_T3_rot5,EN,Australia,Q20,T3,rot5,sample,prefill,6,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q20_T3_rot5,EN,Australia,Q20,T3,rot5,sample,free,6,"F. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q34_T1_rot2,EN,Australia,Q34,T1,rot2,sample,prefill,4,C. Rich people are benefitting more than poor people.,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q34_T1_rot2,EN,Australia,Q34,T1,rot2,sample,free,4,C. Rich people are benefitting more than poor people,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q28a_T1_rev,EN,Australia,Q28a,T1,rev,sample,prefill,4,B. Probably should not have the right,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q28a_T1_rev,EN,Australia,Q28a,T1,rev,sample,free,4,"B. Probably should not have the right
+
+In Australia, there is a general consensus that the government should not have the right to keep people under video surveillance in public areas without a warrant or",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q10d_T2_rev,EN,Australia,Q10d,T2,rev,sample,prefill,5,D,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q10d_T2_rev,EN,Australia,Q10d,T2,rev,sample,free,5,D. Good,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q17a_T2,EN,Australia,Q17a,T2,official,sample,prefill,5,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q17a_T2,EN,Australia,Q17a,T2,official,sample,free,5,A. Strongly agree,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q23a_T2_rot3,EN,Australia,Q23a,T2,rot3,sample,prefill,4,D. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q23a_T2_rot3,EN,Australia,Q23a,T2,rot3,sample,free,4,D. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q23a_T2,EN,Australia,Q23a,T2,official,sample,prefill,4,C. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C13_Q23a_T2,EN,Australia,Q23a,T2,official,sample,free,4,C. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q10d_T3_rev,EN,Austria,Q10d,T3,rev,sample,prefill,5,D,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q10d_T3_rev,EN,Austria,Q10d,T3,rev,sample,free,5,D. Good,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q34_T3_rot2,EN,Austria,Q34,T3,rot2,sample,prefill,4,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q34_T3_rot2,EN,Austria,Q34,T3,rot2,sample,free,4,C. Rich people are benefitting more than poor people,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q20_T3_rot5,EN,Austria,Q20,T3,rot5,sample,prefill,6,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q20_T3_rot5,EN,Austria,Q20,T3,rot5,sample,free,6,"F. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q36a_T1,EN,Austria,Q36a,T1,official,sample,prefill,11,K,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q36a_T1,EN,Austria,Q36a,T1,official,sample,free,11,"A. 0 = Totally uncomfortable with this situation
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. ",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q28a_T3,EN,Austria,Q28a,T3,official,sample,prefill,4,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q28a_T3,EN,Austria,Q28a,T3,official,sample,free,4,C. Probably should not have the right,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q1_T2_rev,EN,Austria,Q1,T2,rev,sample,prefill,7,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q1_T2_rev,EN,Austria,Q1,T2,rev,sample,free,7,F. Several times a day,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q23a_T1_rot1,EN,Austria,Q23a,T1,rot1,sample,prefill,4,B. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q23a_T1_rot1,EN,Austria,Q23a,T1,rot1,sample,free,4,"I'm sorry, but as an AI, I don't have personal experiences or the ability to engage in political and social actions. However, I can tell you that people in Austria can sign",refusal
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q23a_T1_rot2,EN,Austria,Q23a,T1,rot2,sample,prefill,4,A. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C11_Q23a_T1_rot2,EN,Austria,Q23a,T1,rot2,sample,free,4,A. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q20_T3_rot3,EN,Canada,Q20,T3,rot3,sample,prefill,6,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q20_T3_rot3,EN,Canada,Q20,T3,rot3,sample,free,6,"B. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q20_T2_rot3,EN,Canada,Q20,T2,rot3,sample,prefill,6,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q20_T2_rot3,EN,Canada,Q20,T2,rot3,sample,free,6,"B. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q23a_T2,EN,Canada,Q23a,T2,official,sample,prefill,4,C. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q23a_T2,EN,Canada,Q23a,T2,official,sample,free,4,C. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q20_T2_rot4,EN,Canada,Q20,T2,rot4,sample,prefill,6,A,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q20_T2_rot4,EN,Canada,Q20,T2,rot4,sample,free,6,"A. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q20_T2_rot1,EN,Canada,Q20,T2,rot1,sample,prefill,6,D,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q20_T2_rot1,EN,Canada,Q20,T2,rot1,sample,free,6,"D. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q23a_T3_rot2,EN,Canada,Q23a,T3,rot2,sample,prefill,4,A,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q23a_T3_rot2,EN,Canada,Q23a,T3,rot2,sample,free,4,A. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q23a_T1_rot3,EN,Canada,Q23a,T1,rot3,sample,prefill,4,B. Only offline,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q23a_T1_rot3,EN,Canada,Q23a,T1,rot3,sample,free,4,"I'm sorry, but I cannot answer this question without additional context or information.",refusal
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q20_T1_rot1,EN,Canada,Q20,T1,rot1,sample,prefill,6,"D. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C14_Q20_T1_rot1,EN,Canada,Q20,T1,rot1,sample,free,6,"D. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q36a_T3,EN,Germany,Q36a,T3,official,both,prefill,11,I. 8,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q36a_T3,EN,Germany,Q36a,T3,official,both,free,11,"A. 0
+B. 1
+C. 2
+D. 3
+E. 4
+F. 5
+G. 6
+H. 7
+",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q20_T3_rot4,EN,Germany,Q20,T3,rot4,sample,prefill,6,E,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q20_T3_rot4,EN,Germany,Q20,T3,rot4,sample,free,6,"A. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q20_T2_rot5,EN,Germany,Q20,T2,rot5,sample,prefill,6,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q20_T2_rot5,EN,Germany,Q20,T2,rot5,sample,free,6,D. Newspapers (in print or access via Internet),answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q34_T2,EN,Germany,Q34,T2,official,sample,prefill,4,A. Rich people are benefitting more than poor people,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q34_T2,EN,Germany,Q34,T2,official,sample,free,4,A. Rich people are benefitting more than poor people,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q17a_T2,EN,Germany,Q17a,T2,official,sample,prefill,5,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q17a_T2,EN,Germany,Q17a,T2,official,sample,free,5,A. Strongly agree,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q23a_T1_rot3,EN,Germany,Q23a,T1,rot3,sample,prefill,4,B. Only offline,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q23a_T1_rot3,EN,Germany,Q23a,T1,rot3,sample,free,4,A. Neither offline nor online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q20_T3_rot1,EN,Germany,Q20,T3,rot1,sample,prefill,6,D,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q20_T3_rot1,EN,Germany,Q20,T3,rot1,sample,free,6,"D. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q34_T3_rot2,EN,Germany,Q34,T3,rot2,sample,prefill,4,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C5_Q34_T3_rot2,EN,Germany,Q34,T3,rot2,sample,free,4,C. Rich people are benefitting more than poor people,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q20_T3_rot5,EN,Switzerland,Q20,T3,rot5,sample,prefill,6,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q20_T3_rot5,EN,Switzerland,Q20,T3,rot5,sample,free,6,"F. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q23a_T1,EN,Switzerland,Q23a,T1,official,sample,prefill,4,C. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q23a_T1,EN,Switzerland,Q23a,T1,official,sample,free,4,"I'm sorry, but as an AI, I don't have personal experiences or the ability to engage in political and social actions. However, I can tell you that people in Switzerland can sign",refusal
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q20_T3_rot2,EN,Switzerland,Q20,T3,rot2,sample,prefill,6,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q20_T3_rot2,EN,Switzerland,Q20,T3,rot2,sample,free,6,"C. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q1_T2,EN,Switzerland,Q1,T2,official,sample,prefill,7,B. Several times a day,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q1_T2,EN,Switzerland,Q1,T2,official,sample,free,7,"I'm sorry, but as an AI, I don't have personal experiences or the ability to use devices. However, I can tell you that in Switzerland, as in many other countries,",refusal
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q20_T1_rot5,EN,Switzerland,Q20,T1,rot5,sample,prefill,6,"F. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q20_T1_rot5,EN,Switzerland,Q20,T1,rot5,sample,free,6,D. Newspapers (in print or access via Internet),answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q36a_T2,EN,Switzerland,Q36a,T2,official,sample,prefill,11,K,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q36a_T2,EN,Switzerland,Q36a,T2,official,sample,free,11,I. 8,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q23a_T3,EN,Switzerland,Q23a,T3,official,sample,prefill,4,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q23a_T3,EN,Switzerland,Q23a,T3,official,sample,free,4,C. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q36a_T1_rev,EN,Switzerland,Q36a,T1,rev,sample,prefill,11,A. 10,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C12_Q36a_T1_rev,EN,Switzerland,Q36a,T1,rev,sample,free,11,"A. 10 = Totally comfortable with this situation
+B. 9
+C. 8
+D. 7
+E. 6
+F. 5
+G.",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q20_T2,EN,US,Q20,T2,official,sample,prefill,6,E,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q20_T2,EN,US,Q20,T2,official,sample,free,6,"E. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q23a_T1,EN,US,Q23a,T1,official,sample,prefill,4,C. Both offline and online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q23a_T1,EN,US,Q23a,T1,official,sample,free,4,"I'm sorry, but I cannot answer this question without additional context or information.",refusal
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q17a_T2,EN,US,Q17a,T2,official,sample,prefill,5,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q17a_T2,EN,US,Q17a,T2,official,sample,free,5,A. Strongly agree,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q1_T3,EN,US,Q1,T3,official,sample,prefill,7,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q1_T3,EN,US,Q1,T3,official,sample,free,7,A. Almost all the time,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q28a_T2_rev,EN,US,Q28a,T2,rev,sample,prefill,4,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q28a_T2_rev,EN,US,Q28a,T2,rev,sample,free,4,B. Probably should not have the right,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q1_T2_rev,EN,US,Q1,T2,rev,sample,prefill,7,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q1_T2_rev,EN,US,Q1,T2,rev,sample,free,7,F. Several times a day,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q34_T2,EN,US,Q34,T2,official,sample,prefill,4,A. Rich people are benefitting more than poor people,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q34_T2,EN,US,Q34,T2,official,sample,free,4,A. Rich people are benefitting more than poor people,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q17a_T3_rev,EN,US,Q17a,T3,rev,sample,prefill,5,D,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C6_Q17a_T3_rev,EN,US,Q17a,T3,rev,sample,free,5,D. Agree,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q36a_T1_rev,EN,none,Q36a,T1,rev,sample,prefill,11,A. 10,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q36a_T1_rev,EN,none,Q36a,T1,rev,sample,free,11,"A. 10 = Totally comfortable with this situation
+B. 9
+C. 8
+D. 7
+E. 6
+F. 5
+G.",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q23a_T3_rot3,EN,none,Q23a,T3,rot3,sample,prefill,4,C. Only online,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q23a_T3_rot3,EN,none,Q23a,T3,rot3,sample,free,4,"A. Neither offline nor online
+B. Only offline
+C. Only online
+D. Both offline and online",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q20_T2,EN,none,Q20,T2,official,sample,prefill,6,E,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q20_T2,EN,none,Q20,T2,official,sample,free,6,"E. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q36a_T3_rev,EN,none,Q36a,T3,rev,sample,prefill,11,A. 10,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q36a_T3_rev,EN,none,Q36a,T3,rev,sample,free,11,"A. A
+B. B
+C. C
+D. D
+E. E
+F. F
+G. G
+H. H
+I. I
+J. J
+",answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q28a_T2_rev,EN,none,Q28a,T2,rev,sample,prefill,4,C,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q28a_T2_rev,EN,none,Q28a,T2,rev,sample,free,4,A. Definitely should not have the right,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q1_T2_rev,EN,none,Q1,T2,rev,sample,prefill,7,F,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q1_T2_rev,EN,none,Q1,T2,rev,sample,free,7,"I'm sorry, but I cannot answer this question as it requires personal information about my Internet use.",refusal
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q36a_T1,EN,none,Q36a,T1,official,sample,prefill,11,K,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q36a_T1,EN,none,Q36a,T1,official,sample,free,11,"Having a medical operation performed on you by a robot.
+
+A. 0 = Totally uncomfortable with this situation
+B. 1
+C. 2
+D. 3
+E.",other
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q17a_T2,EN,none,Q17a,T2,official,sample,prefill,5,B,answer
+openGPT-X/Teuken-7B-instruct-v0.6,C4_Q17a_T2,EN,none,Q17a,T2,official,sample,free,5,A. Strongly agree,answer

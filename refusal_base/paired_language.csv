@@ -1,0 +1,6 @@
+model,n_pairs,mean_outside_EN,mean_outside_DE,mean_diff_DE_minus_EN,wilcoxon_p
+Qwen/Qwen2.5-7B-Instruct,504,0.0,0.0001,0.0,
+meta-llama/Llama-3.1-8B,504,0.3909,0.5867,0.1958,
+meta-llama/Llama-3.1-8B-Instruct,504,0.0151,0.0113,-0.0038,
+openGPT-X/Teuken-7B-instruct-v0.6,504,0.0289,0.0313,0.0024,
+utter-project/EuroLLM-9B-Instruct,504,0.0064,0.0123,0.006,

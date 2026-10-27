@@ -83,9 +83,10 @@ def select_prompts(rows, per_group, seed, flagged_ids):
 def feed_text(tok, row, use_chat, mode):
     """The exact text fed to the model. 'prefill' matches score_prompts.py."""
     if not use_chat:
-        return row["prompt_text"] if mode == "prefill" else None
-    messages = [{"role": "user", "content": row["user_text"]}]
-    text = tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        from score_prompts import base_prefix  # start token, as in scoring
+        return base_prefix(tok) + row["prompt_text"] if mode == "prefill" else None
+    from score_prompts import chat_prefix  # same template handling as scoring
+    text = chat_prefix(tok, row)
     return text + row["assistant_prefill"] if mode == "prefill" else text
 
 
