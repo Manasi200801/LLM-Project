@@ -92,8 +92,19 @@ def build_input(tok, row, use_chat):
     the plain prompt_text (user text + newline + cue).
     """
     if not use_chat:
-        return row["prompt_text"]
+        return base_prefix(tok) + row["prompt_text"]
     return chat_prefix(tok, row) + row["assistant_prefill"]
+
+
+def base_prefix(tok):
+    """Start-of-text token for base models.
+
+    Chat templates already contain it (e.g. <|begin_of_text|> for Llama), but
+    without a template we tokenize with add_special_tokens=False, so it has to
+    be added here. Models are trained with it, and leaving it out degrades
+    their predictions.
+    """
+    return tok.bos_token or ""
 
 
 def chat_prefix(tok, row):
