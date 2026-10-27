@@ -40,7 +40,9 @@ def pick_device(requested):
 
 
 def load_model(name, device):
-    tok = AutoTokenizer.from_pretrained(name, trust_remote_code=True)
+    # Teuken's model card asks for the slow (sentencepiece) tokenizer.
+    use_fast = "teuken" not in name.lower()
+    tok = AutoTokenizer.from_pretrained(name, trust_remote_code=True, use_fast=use_fast)
     if device == "cuda":
         dtype = torch.bfloat16
     elif device == "mps":
@@ -91,9 +93,28 @@ def build_input(tok, row, use_chat):
     """
     if not use_chat:
         return row["prompt_text"]
-    messages = [{"role": "user", "content": row["user_text"]}]
-    text = tok.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    return text + row["assistant_prefill"]
+    return chat_prefix(tok, row) + row["assistant_prefill"]
+
+
+def chat_prefix(tok, row):
+    """Chat template applied to the user message, ending where the assistant
+    reply starts (no prefill yet).
+
+    Most models have one chat template. Teuken has one template per language
+    ("DE", "EN") and uses capitalized role names, as its model card shows:
+    tokenizer.apply_chat_template(messages, chat_template="DE"). For such
+    models we pick the template that matches the prompt language.
+    """
+    lang = row["language"]
+    named = isinstance(tok.chat_template, dict)
+    if named and lang not in tok.chat_template:
+        raise ValueError(f"No chat template named {lang!r}; "
+                         f"available: {list(tok.chat_template)}")
+    role = "User" if "teuken" in (tok.name_or_path or "").lower() else "user"
+    messages = [{"role": role, "content": row["user_text"]}]
+    kwargs = {"chat_template": lang} if named else {}
+    return tok.apply_chat_template(
+        messages, tokenize=False, add_generation_prompt=True, **kwargs)
 
 
 # ---------------------------------------------------------------------------
