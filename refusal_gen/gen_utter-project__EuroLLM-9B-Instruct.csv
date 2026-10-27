@@ -1,0 +1,245 @@
+model,prompt_id,language,persona,item_id,template_id,order_id,source,mode,n_options,generated_text,label
+utter-project/EuroLLM-9B-Instruct,C9_Q34_T2_rot2,DE,Australia,Q34,T2,rot2,sample,prefill,4, C. Reiche haben mehr Vorteile als Arme,answer
+utter-project/EuroLLM-9B-Instruct,C9_Q34_T2_rot2,DE,Australia,Q34,T2,rot2,sample,free,4,"Ich habe keine Meinung zu diesem Thema, da ich ein KI-Sprachmodell bin und keine persönlichen Meinungen oder Vorurteile habe. Ich kann jedoch sagen, dass die Nutzung des Internet",refusal
+utter-project/EuroLLM-9B-Instruct,C9_Q20_T2,DE,Australia,Q20,T2,official,sample,prefill,6," A. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",answer
+utter-project/EuroLLM-9B-Instruct,C9_Q20_T2,DE,Australia,Q20,T2,official,sample,free,6,A.,answer
+utter-project/EuroLLM-9B-Instruct,C9_Q36a_T2_rev,DE,Australia,Q36a,T2,rev,sample,prefill,11, K. 0 = Vollkommen unwohl,answer
+utter-project/EuroLLM-9B-Instruct,C9_Q36a_T2_rev,DE,Australia,Q36a,T2,rev,sample,free,11,"Ich würde mich bei einer Operation durch einen Roboter wahrscheinlich unwohl fühlen, da ich die Kontrolle über meinen Körper und die Entscheidung über meine Gesundheit nicht in die Hände einer Maschine legen möchte. Ich würde",other
+utter-project/EuroLLM-9B-Instruct,C9_Q36a_T3_rev,DE,Australia,Q36a,T3,rev,sample,prefill,11, A. 10 = Vollkommen wohl,answer
+utter-project/EuroLLM-9B-Instruct,C9_Q36a_T3_rev,DE,Australia,Q36a,T3,rev,sample,free,11,"Ich würde mich bei einer Operation durch einen Roboter wahrscheinlich unwohl fühlen, da ich die Kontrolle über meinen Körper und die Entscheidung über meine Gesundheit nicht in die Hände einer Maschine legen möchte. Daher würde",other
+utter-project/EuroLLM-9B-Instruct,C9_Q34_T1,DE,Australia,Q34,T1,official,sample,prefill,4, B. Reiche und Arme haben gleichermaßen Vorteile,answer
+utter-project/EuroLLM-9B-Instruct,C9_Q34_T1,DE,Australia,Q34,T1,official,sample,free,4,Die Antwort ist B. Reiche und Arme haben gleichermaßen Vorteile.,other
+utter-project/EuroLLM-9B-Instruct,C9_Q23a_T2_rot3,DE,Australia,Q23a,T2,rot3,sample,prefill,4, D. Beides,answer
+utter-project/EuroLLM-9B-Instruct,C9_Q23a_T2_rot3,DE,Australia,Q23a,T2,rot3,sample,free,4,Ich habe in den letzten 12 Monaten eine Online-Petition unterschrieben.,other
+utter-project/EuroLLM-9B-Instruct,C9_Q36a_T1_rev,DE,Australia,Q36a,T1,rev,sample,prefill,11, A. 10 = Vollkommen wohl,answer
+utter-project/EuroLLM-9B-Instruct,C9_Q36a_T1_rev,DE,Australia,Q36a,T1,rev,sample,free,11,"Ich würde mich bei einer Operation durch einen Roboter wahrscheinlich unwohl fühlen, da ich die Kontrolle über meinen Körper und die Entscheidung über meine Gesundheit nicht in die Hände einer Maschine legen möchte. Ich würde",other
+utter-project/EuroLLM-9B-Instruct,C9_Q20_T2_rot2,DE,Australia,Q20,T2,rot2,sample,prefill,6," E. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",answer
+utter-project/EuroLLM-9B-Instruct,C9_Q20_T2_rot2,DE,Australia,Q20,T2,rot2,sample,free,6,A. Zeitungen (gedruckt oder online),answer
+utter-project/EuroLLM-9B-Instruct,C7_Q23a_T3_rot3,DE,Austria,Q23a,T3,rot3,sample,prefill,4, D. Beides,answer
+utter-project/EuroLLM-9B-Instruct,C7_Q23a_T3_rot3,DE,Austria,Q23a,T3,rot3,sample,free,4,"Ich habe in den letzten 12 Monaten keine Unterschriftensammlung oder Petition unterschrieben, weder offline noch online. Meine Antwort wäre also:
+
+A. Weder noch",other
+utter-project/EuroLLM-9B-Instruct,C7_Q28a_T3,DE,Austria,Q28a,T3,official,sample,prefill,4, C. Eher nein,answer
+utter-project/EuroLLM-9B-Instruct,C7_Q28a_T3,DE,Austria,Q28a,T3,official,sample,free,4,C. Eher nein,answer
+utter-project/EuroLLM-9B-Instruct,C7_Q20_T2_rot5,DE,Austria,Q20,T2,rot5,sample,prefill,6," B. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",answer
+utter-project/EuroLLM-9B-Instruct,C7_Q20_T2_rot5,DE,Austria,Q20,T2,rot5,sample,free,6,B,answer
+utter-project/EuroLLM-9B-Instruct,C7_Q20_T3_rot2,DE,Austria,Q20,T3,rot2,sample,prefill,6, E,answer
+utter-project/EuroLLM-9B-Instruct,C7_Q20_T3_rot2,DE,Austria,Q20,T3,rot2,sample,free,6,"Die Antwort lautet: E. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",other
+utter-project/EuroLLM-9B-Instruct,C7_Q23a_T3_rot2,DE,Austria,Q23a,T3,rot2,sample,prefill,4, C. Offline,answer
+utter-project/EuroLLM-9B-Instruct,C7_Q23a_T3_rot2,DE,Austria,Q23a,T3,rot2,sample,free,4,"Ich habe in den letzten 12 Monaten keine Unterschriftensammlung oder Petition unterschrieben, weder offline noch online. Meine Antwort wäre also:
+
+B. Weder noch",other
+utter-project/EuroLLM-9B-Instruct,C7_Q36a_T3,DE,Austria,Q36a,T3,official,sample,prefill,11, A. 0 = Vollkommen unwohl,answer
+utter-project/EuroLLM-9B-Instruct,C7_Q36a_T3,DE,Austria,Q36a,T3,official,sample,free,11,Ich würde mich bei einer Operation durch einen Roboter mit **I. 8** wohlfühlen.,other
+utter-project/EuroLLM-9B-Instruct,C7_Q20_T3_rot5,DE,Austria,Q20,T3,rot5,sample,prefill,6," B. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",answer
+utter-project/EuroLLM-9B-Instruct,C7_Q20_T3_rot5,DE,Austria,Q20,T3,rot5,sample,free,6,"Die Antwort lautet: B. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",other
+utter-project/EuroLLM-9B-Instruct,C7_Q23a_T2_rot1,DE,Austria,Q23a,T2,rot1,sample,prefill,4, B. Beides,answer
+utter-project/EuroLLM-9B-Instruct,C7_Q23a_T2_rot1,DE,Austria,Q23a,T2,rot1,sample,free,4,"Ich habe in den letzten 12 Monaten eine Unterschriftensammlung/Petition unterschrieben, und zwar sowohl online als auch offline. Daher würde ich die Option B. Beides wählen.",other
+utter-project/EuroLLM-9B-Instruct,C10_Q23a_T2,DE,Canada,Q23a,T2,official,sample,prefill,4, C. Beides,answer
+utter-project/EuroLLM-9B-Instruct,C10_Q23a_T2,DE,Canada,Q23a,T2,official,sample,free,4,"Ich habe in den letzten 12 Monaten eine Unterschriftensammlung/Petition unterschrieben, sowohl offline als auch online. Daher würde ich die Option C. Beides wählen.",other
+utter-project/EuroLLM-9B-Instruct,C10_Q23a_T1,DE,Canada,Q23a,T1,official,sample,prefill,4, C. Beides,answer
+utter-project/EuroLLM-9B-Instruct,C10_Q23a_T1,DE,Canada,Q23a,T1,official,sample,free,4,"Ich habe in den letzten 12 Monaten eine Unterschriftensammlung/Petition unterschrieben, sowohl offline als auch online.",other
+utter-project/EuroLLM-9B-Instruct,C10_Q28a_T3,DE,Canada,Q28a,T3,official,sample,prefill,4, C. Eher nein,answer
+utter-project/EuroLLM-9B-Instruct,C10_Q28a_T3,DE,Canada,Q28a,T3,official,sample,free,4,C. Eher nein,answer
+utter-project/EuroLLM-9B-Instruct,C10_Q36a_T1,DE,Canada,Q36a,T1,official,sample,prefill,11, A. 0 = Vollkommen unwohl,answer
+utter-project/EuroLLM-9B-Instruct,C10_Q36a_T1,DE,Canada,Q36a,T1,official,sample,free,11,"Ich würde mich bei einer Operation durch einen Roboter wahrscheinlich unwohl fühlen, aber nicht extrem. Ich würde mich wahrscheinlich auf einer Skala von 0 bis 10 auf einem Wert zwischen 3",other
+utter-project/EuroLLM-9B-Instruct,C10_Q28a_T2_rev,DE,Canada,Q28a,T2,rev,sample,prefill,4, C. Eher ja,answer
+utter-project/EuroLLM-9B-Instruct,C10_Q28a_T2_rev,DE,Canada,Q28a,T2,rev,sample,free,4,"Ich bin ein KI-Chatbot und habe keinen persönlichen Standpunkt oder Meinungen. Ich kann Ihnen jedoch sagen, dass die Frage nach der Videoüberwachung im öffentlichen Raum ein komplexes Thema ist",other
+utter-project/EuroLLM-9B-Instruct,C10_Q20_T3_rot3,DE,Canada,Q20,T3,rot3,sample,prefill,6," D. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",answer
+utter-project/EuroLLM-9B-Instruct,C10_Q20_T3_rot3,DE,Canada,Q20,T3,rot3,sample,free,6,"Die Antwort lautet: D. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",other
+utter-project/EuroLLM-9B-Instruct,C10_Q23a_T2_rot2,DE,Canada,Q23a,T2,rot2,sample,prefill,4, C. Offline,answer
+utter-project/EuroLLM-9B-Instruct,C10_Q23a_T2_rot2,DE,Canada,Q23a,T2,rot2,sample,free,4,Ich habe in den letzten 12 Monaten eine Online-Petition unterschrieben.,other
+utter-project/EuroLLM-9B-Instruct,C10_Q20_T2_rot4,DE,Canada,Q20,T2,rot4,sample,prefill,6," C. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",answer
+utter-project/EuroLLM-9B-Instruct,C10_Q20_T2_rot4,DE,Canada,Q20,T2,rot4,sample,free,6,"A. Websites (z. B. reine Online-Nachrichtenseiten, Portale oder Suchmaschinen)",answer
+utter-project/EuroLLM-9B-Instruct,C2_Q20_T1_rot5,DE,Germany,Q20,T1,rot5,sample,prefill,6, B,answer
+utter-project/EuroLLM-9B-Instruct,C2_Q20_T1_rot5,DE,Germany,Q20,T1,rot5,sample,free,6,"B. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",answer
+utter-project/EuroLLM-9B-Instruct,C2_Q34_T2_rot1,DE,Germany,Q34,T2,rot1,sample,prefill,4, B. Arme haben mehr Vorteile als Reiche,answer
+utter-project/EuroLLM-9B-Instruct,C2_Q34_T2_rot1,DE,Germany,Q34,T2,rot1,sample,free,4,"Ich habe keine Meinung zu diesem Thema, da ich ein KI-Chatbot bin und keine persönlichen Meinungen habe. Ich kann jedoch einige allgemeine Trends und Statistiken zu diesem Thema liefern.
+
+",refusal
+utter-project/EuroLLM-9B-Instruct,C2_Q36a_T3_rev,DE,Germany,Q36a,T3,rev,sample,prefill,11, A. 10 = Vollkommen wohl,answer
+utter-project/EuroLLM-9B-Instruct,C2_Q36a_T3_rev,DE,Germany,Q36a,T3,rev,sample,free,11,"Ich würde mich bei einer Operation durch einen Roboter wahrscheinlich unwohl fühlen, da ich die Kontrolle über meinen Körper und die Entscheidung über meine Gesundheit nicht in die Hände einer Maschine legen möchte. Daher würde",other
+utter-project/EuroLLM-9B-Instruct,C2_Q28a_T2_rev,DE,Germany,Q28a,T2,rev,sample,prefill,4, C. Eher ja,answer
+utter-project/EuroLLM-9B-Instruct,C2_Q28a_T2_rev,DE,Germany,Q28a,T2,rev,sample,free,4,"Ich bin ein KI-Chatbot und habe keine persönlichen Meinungen oder Überzeugungen. Ich kann Ihnen jedoch sagen, dass die Frage nach der Videoüberwachung im öffentlichen Raum ein komplexes Thema",other
+utter-project/EuroLLM-9B-Instruct,C2_Q17a_T3_rev,DE,Germany,Q17a,T3,rev,sample,prefill,5, E. Stimme voll und ganz zu,answer
+utter-project/EuroLLM-9B-Instruct,C2_Q17a_T3_rev,DE,Germany,Q17a,T3,rev,sample,free,5,"Ich würde mich für Option D, ""Stimme zu"", entscheiden. Ich denke, dass Technologie unser Leben tatsächlich einfacher gemacht hat, indem sie uns ermöglicht, Aufgaben schneller und effizienter zu erled",other
+utter-project/EuroLLM-9B-Instruct,C2_Q1_T1_rev,DE,Germany,Q1,T1,rev,sample,prefill,7, F. Mehrmals am Tag,answer
+utter-project/EuroLLM-9B-Instruct,C2_Q1_T1_rev,DE,Germany,Q1,T1,rev,sample,free,7,F. Mehrmals am Tag,answer
+utter-project/EuroLLM-9B-Instruct,C2_Q17a_T2_rev,DE,Germany,Q17a,T2,rev,sample,prefill,5, E. Stimme voll und ganz zu,answer
+utter-project/EuroLLM-9B-Instruct,C2_Q17a_T2_rev,DE,Germany,Q17a,T2,rev,sample,free,5,"Ich stimme dieser Aussage zu. Die Technologie hat unser Leben in vielen Bereichen einfacher gemacht, z.B. durch die Nutzung von Smartphones, Computern und anderen digitalen Geräten, die uns bei",other
+utter-project/EuroLLM-9B-Instruct,C2_Q34_T1_rot2,DE,Germany,Q34,T1,rot2,sample,prefill,4, C. Reiche haben mehr Vorteile als Arme,answer
+utter-project/EuroLLM-9B-Instruct,C2_Q34_T1_rot2,DE,Germany,Q34,T1,rot2,sample,free,4,Die Antwort ist D. Reiche und Arme haben gleichermaßen Vorteile.,other
+utter-project/EuroLLM-9B-Instruct,C8_Q28a_T1_rev,DE,Switzerland,Q28a,T1,rev,sample,prefill,4, C. Eher ja,answer
+utter-project/EuroLLM-9B-Instruct,C8_Q28a_T1_rev,DE,Switzerland,Q28a,T1,rev,sample,free,4,Ich bin ein KI-Chatbot und habe keine persönlichen Meinungen oder Überzeugungen. Ich kann jedoch Informationen und Daten über die Schweizer Gesetzgebung und Datenschutzrichtlinien bezüglich Videoüberwachung im öffentlichen,other
+utter-project/EuroLLM-9B-Instruct,C8_Q23a_T3_rot2,DE,Switzerland,Q23a,T3,rot2,sample,prefill,4, C. Offline,answer
+utter-project/EuroLLM-9B-Instruct,C8_Q23a_T3_rot2,DE,Switzerland,Q23a,T3,rot2,sample,free,4,"Ich habe in den letzten 12 Monaten keine Unterschriftensammlung oder Petition unterschrieben, weder offline noch online. Meine Antwort wäre also:
+
+B. Weder noch",other
+utter-project/EuroLLM-9B-Instruct,C8_Q10d_T2_rev,DE,Switzerland,Q10d,T2,rev,sample,prefill,5, D. Gut,answer
+utter-project/EuroLLM-9B-Instruct,C8_Q10d_T2_rev,DE,Switzerland,Q10d,T2,rev,sample,free,5,"Ich habe keine persönlichen Erfahrungen oder Meinungen, aber ich kann Ihnen sagen, dass die Frage nach der Selbsteinschätzung der eigenen Fähigkeiten in Bezug auf das Lernen neuer Software oder Apps eine subjekt",refusal
+utter-project/EuroLLM-9B-Instruct,C8_Q28a_T3_rev,DE,Switzerland,Q28a,T3,rev,sample,prefill,4, C. Eher ja,answer
+utter-project/EuroLLM-9B-Instruct,C8_Q28a_T3_rev,DE,Switzerland,Q28a,T3,rev,sample,free,4,C. Eher ja,answer
+utter-project/EuroLLM-9B-Instruct,C8_Q20_T2_rot5,DE,Switzerland,Q20,T2,rot5,sample,prefill,6," B. Soziale Medien (z. B. Facebook, TikTok, Instagram, YouTube, X/Twitter, WhatsApp, Telegram, LinkedIn)",answer
+utter-project/EuroLLM-9B-Instruct,C8_Q20_T2_rot5,DE,Switzerland,Q20,T2,rot5,sample,free,6,B.,answer
+utter-project/EuroLLM-9B-Instruct,C8_Q20_T1_rot3,DE,Switzerland,Q20,T1,rot3,sample,prefill,6, A,answer
+utter-project/EuroLLM-9B-Instruct,C8_Q20_T1_rot3,DE,Switzerland,Q20,T1,rot3,sample,free,6,A. Radio und Podcasts (einschließlich Internetradio oder Zugang übers Internet),answer
+utter-project/EuroLLM-9B-Instruct,C8_Q34_T3_rot3,DE,Switzerland,Q34,T3,rot3,sample,prefill,4, B. Reiche haben mehr Vorteile als Arme,answer
+utter-project/EuroLLM-9B-Instruct,C8_Q34_T3_rot3,DE,Switzerland,Q34,T3,rot3,sample,free,4,Die Antwort ist C. Reiche und Arme haben gleichermaßen Vorteile.,other
+utter-project/EuroLLM-9B-Instruct,C8_Q34_T2_rot1,DE,Switzerland,Q34,T2,rot1,sample,prefill,4, B. Arme haben mehr Vorteile als Reiche,answer
+utter-project/EuroLLM-9B-Instruct,C8_Q34_T2_rot1,DE,Switzerland,Q34,T2,rot1,sample,free,4,"Ich habe keine Meinung zu diesem Thema, da ich ein KI-Chatbot bin und keine persönlichen Meinungen habe. Ich kann jedoch einige allgemeine Trends und Statistiken zu diesem Thema liefern.
+
+",refusal
+utter-project/EuroLLM-9B-Instruct,C3_Q34_T1_rot2,DE,US,Q34,T1,rot2,sample,prefill,4, C. Reiche haben mehr Vorteile als Arme,answer
+utter-project/EuroLLM-9B-Instruct,C3_Q34_T1_rot2,DE,US,Q34,T1,rot2,sample,free,4,Die Antwort ist D. Reiche und Arme haben gleichermaßen Vorteile.,other
+utter-project/EuroLLM-9B-Instruct,C3_Q23a_T1,DE,US,Q23a,T1,official,sample,prefill,4, C. Beides,answer
+utter-project/EuroLLM-9B-Instruct,C3_Q23a_T1,DE,US,Q23a,T1,official,sample,free,4,"Ich habe in den letzten 12 Monaten eine Unterschriftensammlung/Petition unterschrieben, sowohl offline als auch online.",other
+utter-project/EuroLLM-9B-Instruct,C3_Q1_T3_rev,DE,US,Q1,T3,rev,sample,prefill,7, F. Mehrmals am Tag,answer
+utter-project/EuroLLM-9B-Instruct,C3_Q1_T3_rev,DE,US,Q1,T3,rev,sample,free,7,F,answer
+utter-project/EuroLLM-9B-Instruct,C3_Q23a_T1_rot2,DE,US,Q23a,T1,rot2,sample,prefill,4, C. Offline,answer
+utter-project/EuroLLM-9B-Instruct,C3_Q23a_T1_rot2,DE,US,Q23a,T1,rot2,sample,free,4,Ich habe in den letzten 12 Monaten eine Online-Petition unterschrieben.,other
+utter-project/EuroLLM-9B-Instruct,C3_Q23a_T3,DE,US,Q23a,T3,official,sample,prefill,4, C. Beides,answer
+utter-project/EuroLLM-9B-Instruct,C3_Q23a_T3,DE,US,Q23a,T3,official,sample,free,4,"Ich habe in den letzten 12 Monaten keine Unterschriftensammlung oder Petition unterschrieben, weder offline noch online. Meine Antwort ist: D.",other
+utter-project/EuroLLM-9B-Instruct,C3_Q20_T3_rot2,DE,US,Q20,T3,rot2,sample,prefill,6, E,answer
+utter-project/EuroLLM-9B-Instruct,C3_Q20_T3_rot2,DE,US,Q20,T3,rot2,sample,free,6,Die Antwort lautet: E.,other
+utter-project/EuroLLM-9B-Instruct,C3_Q34_T3_rot2,DE,US,Q34,T3,rot2,sample,prefill,4, C. Reiche haben mehr Vorteile als Arme,answer
+utter-project/EuroLLM-9B-Instruct,C3_Q34_T3_rot2,DE,US,Q34,T3,rot2,sample,free,4,Die Antwort ist D. Reiche und Arme haben gleichermaßen Vorteile.,other
+utter-project/EuroLLM-9B-Instruct,C3_Q1_T2,DE,US,Q1,T2,official,sample,prefill,7, F. Seltener,answer
+utter-project/EuroLLM-9B-Instruct,C3_Q1_T2,DE,US,Q1,T2,official,sample,free,7,G. Nie,answer
+utter-project/EuroLLM-9B-Instruct,C1_Q23a_T2,DE,none,Q23a,T2,official,sample,prefill,4, C. Beides,answer
+utter-project/EuroLLM-9B-Instruct,C1_Q23a_T2,DE,none,Q23a,T2,official,sample,free,4,"Ich habe in den letzten 12 Monaten keine Unterschriftensammlung oder Petition unterschrieben, weder offline noch online. Daher ist die richtige Antwort:
+
+D. Weder noch",other
+utter-project/EuroLLM-9B-Instruct,C1_Q34_T2,DE,none,Q34,T2,official,sample,prefill,4, A. Reiche haben mehr Vorteile als Arme,answer
+utter-project/EuroLLM-9B-Instruct,C1_Q34_T2,DE,none,Q34,T2,official,sample,free,4,Die Antwort ist B. Reiche und Arme haben gleichermaßen Vorteile.,other
+utter-project/EuroLLM-9B-Instruct,C1_Q10d_T3_rev,DE,none,Q10d,T3,rev,sample,prefill,5, D. Gut,answer
+utter-project/EuroLLM-9B-Instruct,C1_Q10d_T3_rev,DE,none,Q10d,T3,rev,sample,free,5,"Ich habe keine persönlichen Erfahrungen oder Erinnerungen, da ich ein großes Sprachmodell bin. Ich kann Ihnen jedoch helfen, Ihre Fähigkeit in den genannten Bereichen zu bewerten.
+
+Da ich in den",refusal
+utter-project/EuroLLM-9B-Instruct,C1_Q36a_T2_rev,DE,none,Q36a,T2,rev,sample,prefill,11, K. 0 = Vollkommen unwohl,answer
+utter-project/EuroLLM-9B-Instruct,C1_Q36a_T2_rev,DE,none,Q36a,T2,rev,sample,free,11,"Ich würde mich bei einer Operation durch einen Roboter wahrscheinlich unwohl fühlen, da ich die Kontrolle über meinen Körper und die Entscheidung über meine Gesundheit nicht in die Hände einer Maschine legen möchte. Daher würde",other
+utter-project/EuroLLM-9B-Instruct,C1_Q1_T3_rev,DE,none,Q1,T3,rev,sample,prefill,7, F. Mehrmals am Tag,answer
+utter-project/EuroLLM-9B-Instruct,C1_Q1_T3_rev,DE,none,Q1,T3,rev,sample,free,7,F,answer
+utter-project/EuroLLM-9B-Instruct,C1_Q17a_T1_rev,DE,none,Q17a,T1,rev,sample,prefill,5, E. Stimme voll und ganz zu,answer
+utter-project/EuroLLM-9B-Instruct,C1_Q17a_T1_rev,DE,none,Q17a,T1,rev,sample,free,5,"Ich würde mich für Option D, ""Stimme zu"", entscheiden. Technologie hat tatsächlich unser Leben in vielerlei Hinsicht einfacher gemacht, indem sie uns ermöglicht, Aufgaben schneller und effizienter zu er",other
+utter-project/EuroLLM-9B-Instruct,C1_Q20_T3_rot2,DE,none,Q20,T3,rot2,sample,prefill,6, E,answer
+utter-project/EuroLLM-9B-Instruct,C1_Q20_T3_rot2,DE,none,Q20,T3,rot2,sample,free,6,Die Antwort lautet: E.,other
+utter-project/EuroLLM-9B-Instruct,C1_Q17a_T3_rev,DE,none,Q17a,T3,rev,sample,prefill,5," E. Stimme voll und ganz zu
+
+Diese Aussage ist wahr, da Technologie unser Leben in vielen Bereichen erleichtert hat. Zum Beispiel ermöglichen Smartphones und Computer uns, Informationen schnell und einfach ab",answer
+utter-project/EuroLLM-9B-Instruct,C1_Q17a_T3_rev,DE,none,Q17a,T3,rev,sample,free,5,"Ich würde die Antwort mit dem Buchstaben D. Stimme zu geben.
+
+Technologie hat tatsächlich unser Leben in vielen Bereichen einfacher gemacht, z.B. durch die Automatisierung von Aufgaben, die Verbesser",other
+utter-project/EuroLLM-9B-Instruct,C13_Q1_T3_rev,EN,Australia,Q1,T3,rev,sample,prefill,7, F. Several times a day,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q1_T3_rev,EN,Australia,Q1,T3,rev,sample,free,7,F. Several times a day,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q20_T3_rot5,EN,Australia,Q20,T3,rot5,sample,prefill,6," B. Online social media (for example Facebook, Instagram, TikTok, X (formerly Twitter), YouTube, Snapchat)",answer
+utter-project/EuroLLM-9B-Instruct,C13_Q20_T3_rot5,EN,Australia,Q20,T3,rot5,sample,free,6,C. Television (including TV apps or access via Internet),answer
+utter-project/EuroLLM-9B-Instruct,C13_Q34_T1_rot2,EN,Australia,Q34,T1,rot2,sample,prefill,4, D. Rich and poor people are benefitting equally,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q34_T1_rot2,EN,Australia,Q34,T1,rot2,sample,free,4,C. Rich people are benefitting more than poor people,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q28a_T1_rev,EN,Australia,Q28a,T1,rev,sample,prefill,4, C. Probably should have the right,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q28a_T1_rev,EN,Australia,Q28a,T1,rev,sample,free,4,"I would choose option C: Probably should have the right. While I understand the concerns about privacy, I believe that in certain situations, such as preventing crime or ensuring public safety, the benefits of",other
+utter-project/EuroLLM-9B-Instruct,C13_Q10d_T2_rev,EN,Australia,Q10d,T2,rev,sample,prefill,5, D. Good,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q10d_T2_rev,EN,Australia,Q10d,T2,rev,sample,free,5,E. Very good,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q17a_T2,EN,Australia,Q17a,T2,official,sample,prefill,5, A,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q17a_T2,EN,Australia,Q17a,T2,official,sample,free,5,A.,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q23a_T2_rot3,EN,Australia,Q23a,T2,rot3,sample,prefill,4, D. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q23a_T2_rot3,EN,Australia,Q23a,T2,rot3,sample,free,4,D. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q23a_T2,EN,Australia,Q23a,T2,official,sample,prefill,4, C. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C13_Q23a_T2,EN,Australia,Q23a,T2,official,sample,free,4,C. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q10d_T3_rev,EN,Austria,Q10d,T3,rev,sample,prefill,5, D. Good,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q10d_T3_rev,EN,Austria,Q10d,T3,rev,sample,free,5,E. Very good,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q34_T3_rot2,EN,Austria,Q34,T3,rot2,sample,prefill,4, D. Rich and poor people are benefitting equally,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q34_T3_rot2,EN,Austria,Q34,T3,rot2,sample,free,4,C. Rich people are benefitting more than poor people,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q20_T3_rot5,EN,Austria,Q20,T3,rot5,sample,prefill,6, C,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q20_T3_rot5,EN,Austria,Q20,T3,rot5,sample,free,6,C. Television (including TV apps or access via Internet),answer
+utter-project/EuroLLM-9B-Instruct,C11_Q36a_T1,EN,Austria,Q36a,T1,official,sample,prefill,11, K. 10 = Totally comfortable with this situation,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q36a_T1,EN,Austria,Q36a,T1,official,sample,free,11,"I would personally feel ""totally uncomfortable"" with this situation.",other
+utter-project/EuroLLM-9B-Instruct,C11_Q28a_T3,EN,Austria,Q28a,T3,official,sample,prefill,4, C. Probably should not have the right,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q28a_T3,EN,Austria,Q28a,T3,official,sample,free,4,C. Probably should not have the right,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q1_T2_rev,EN,Austria,Q1,T2,rev,sample,prefill,7, F.,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q1_T2_rev,EN,Austria,Q1,T2,rev,sample,free,7,F.,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q23a_T1_rot1,EN,Austria,Q23a,T1,rot1,sample,prefill,4, B. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q23a_T1_rot1,EN,Austria,Q23a,T1,rot1,sample,free,4,D. Only offline,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q23a_T1_rot2,EN,Austria,Q23a,T1,rot2,sample,prefill,4, C. Only offline,answer
+utter-project/EuroLLM-9B-Instruct,C11_Q23a_T1_rot2,EN,Austria,Q23a,T1,rot2,sample,free,4,C. Only offline,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q20_T3_rot3,EN,Canada,Q20,T3,rot3,sample,prefill,6, C. Other,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q20_T3_rot3,EN,Canada,Q20,T3,rot3,sample,free,6,E.,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q20_T2_rot3,EN,Canada,Q20,T2,rot3,sample,prefill,6, C,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q20_T2_rot3,EN,Canada,Q20,T2,rot3,sample,free,6,E,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q23a_T2,EN,Canada,Q23a,T2,official,sample,prefill,4, C. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q23a_T2,EN,Canada,Q23a,T2,official,sample,free,4,C. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q20_T2_rot4,EN,Canada,Q20,T2,rot4,sample,prefill,6, A,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q20_T2_rot4,EN,Canada,Q20,T2,rot4,sample,free,6,A.,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q20_T2_rot1,EN,Canada,Q20,T2,rot1,sample,prefill,6, A,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q20_T2_rot1,EN,Canada,Q20,T2,rot1,sample,free,6,F,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q23a_T3_rot2,EN,Canada,Q23a,T3,rot2,sample,prefill,4, C. Only offline,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q23a_T3_rot2,EN,Canada,Q23a,T3,rot2,sample,free,4,C. Only offline,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q23a_T1_rot3,EN,Canada,Q23a,T1,rot3,sample,prefill,4, D. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q23a_T1_rot3,EN,Canada,Q23a,T1,rot3,sample,free,4,D. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C14_Q20_T1_rot1,EN,Canada,Q20,T1,rot1,sample,prefill,6," D. Websites (including exclusively online news sites, news aggregators, portals, or search engines)",answer
+utter-project/EuroLLM-9B-Instruct,C14_Q20_T1_rot1,EN,Canada,Q20,T1,rot1,sample,free,6,A. Television (including TV apps or access via Internet),answer
+utter-project/EuroLLM-9B-Instruct,C5_Q36a_T3,EN,Germany,Q36a,T3,official,sample,prefill,11, A. 0 = Totally uncomfortable with this situation,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q36a_T3,EN,Germany,Q36a,T3,official,sample,free,11,"I would personally feel ""E"" = 4 on this scale.",other
+utter-project/EuroLLM-9B-Instruct,C5_Q20_T3_rot4,EN,Germany,Q20,T3,rot4,sample,prefill,6, D,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q20_T3_rot4,EN,Germany,Q20,T3,rot4,sample,free,6,D.,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q20_T2_rot5,EN,Germany,Q20,T2,rot5,sample,prefill,6, C,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q20_T2_rot5,EN,Germany,Q20,T2,rot5,sample,free,6,C,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q34_T2,EN,Germany,Q34,T2,official,sample,prefill,4, B. Rich and poor people are benefitting equally,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q34_T2,EN,Germany,Q34,T2,official,sample,free,4,A. Rich people are benefitting more than poor people,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q17a_T2,EN,Germany,Q17a,T2,official,sample,prefill,5, A,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q17a_T2,EN,Germany,Q17a,T2,official,sample,free,5,A.,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q23a_T1_rot3,EN,Germany,Q23a,T1,rot3,sample,prefill,4, D. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q23a_T1_rot3,EN,Germany,Q23a,T1,rot3,sample,free,4,D. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q20_T3_rot1,EN,Germany,Q20,T3,rot1,sample,prefill,6, A,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q20_T3_rot1,EN,Germany,Q20,T3,rot1,sample,free,6,A.,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q34_T3_rot2,EN,Germany,Q34,T3,rot2,sample,prefill,4, D. Rich and poor people are benefitting equally,answer
+utter-project/EuroLLM-9B-Instruct,C5_Q34_T3_rot2,EN,Germany,Q34,T3,rot2,sample,free,4,C. Rich people are benefitting more than poor people,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q20_T3_rot5,EN,Switzerland,Q20,T3,rot5,sample,prefill,6, C,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q20_T3_rot5,EN,Switzerland,Q20,T3,rot5,sample,free,6,C. Television (including TV apps or access via Internet),answer
+utter-project/EuroLLM-9B-Instruct,C12_Q23a_T1,EN,Switzerland,Q23a,T1,official,sample,prefill,4, C. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q23a_T1,EN,Switzerland,Q23a,T1,official,sample,free,4,C. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q20_T3_rot2,EN,Switzerland,Q20,T3,rot2,sample,prefill,6, A,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q20_T3_rot2,EN,Switzerland,Q20,T3,rot2,sample,free,6,F,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q1_T2,EN,Switzerland,Q1,T2,official,sample,prefill,7, B.,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q1_T2,EN,Switzerland,Q1,T2,official,sample,free,7,B.,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q20_T1_rot5,EN,Switzerland,Q20,T1,rot5,sample,prefill,6, C,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q20_T1_rot5,EN,Switzerland,Q20,T1,rot5,sample,free,6,C. Television (including TV apps or access via Internet),answer
+utter-project/EuroLLM-9B-Instruct,C12_Q36a_T2,EN,Switzerland,Q36a,T2,official,sample,prefill,11, K. 10,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q36a_T2,EN,Switzerland,Q36a,T2,official,sample,free,11,A,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q23a_T3,EN,Switzerland,Q23a,T3,official,sample,prefill,4, C. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q23a_T3,EN,Switzerland,Q23a,T3,official,sample,free,4,C. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q36a_T1_rev,EN,Switzerland,Q36a,T1,rev,sample,prefill,11, A. 10 = Totally comfortable with this situation,answer
+utter-project/EuroLLM-9B-Instruct,C12_Q36a_T1_rev,EN,Switzerland,Q36a,T1,rev,sample,free,11,"I would personally feel ""totally comfortable"" with this situation.",other
+utter-project/EuroLLM-9B-Instruct,C6_Q20_T2,EN,US,Q20,T2,official,sample,prefill,6, A,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q20_T2,EN,US,Q20,T2,official,sample,free,6,F,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q23a_T1,EN,US,Q23a,T1,official,sample,prefill,4, C. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q23a_T1,EN,US,Q23a,T1,official,sample,free,4,C. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q17a_T2,EN,US,Q17a,T2,official,sample,prefill,5, A,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q17a_T2,EN,US,Q17a,T2,official,sample,free,5,A.,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q1_T3,EN,US,Q1,T3,official,sample,prefill,7, B. Several times a day,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q1_T3,EN,US,Q1,T3,official,sample,free,7,B. Several times a day,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q28a_T2_rev,EN,US,Q28a,T2,rev,sample,prefill,4, C. Probably should have the right,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q28a_T2_rev,EN,US,Q28a,T2,rev,sample,free,4,D.,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q1_T2_rev,EN,US,Q1,T2,rev,sample,prefill,7, F.,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q1_T2_rev,EN,US,Q1,T2,rev,sample,free,7,F.,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q34_T2,EN,US,Q34,T2,official,sample,prefill,4, B. Rich and poor people are benefitting equally,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q34_T2,EN,US,Q34,T2,official,sample,free,4,A. Rich people are benefitting more than poor people,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q17a_T3_rev,EN,US,Q17a,T3,rev,sample,prefill,5, E.,answer
+utter-project/EuroLLM-9B-Instruct,C6_Q17a_T3_rev,EN,US,Q17a,T3,rev,sample,free,5,E. Strongly agree,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q36a_T1_rev,EN,none,Q36a,T1,rev,sample,prefill,11, A. 10 = Totally comfortable with this situation,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q36a_T1_rev,EN,none,Q36a,T1,rev,sample,free,11,A. 10 = Totally comfortable with this situation,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q23a_T3_rot3,EN,none,Q23a,T3,rot3,sample,prefill,4, D. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q23a_T3_rot3,EN,none,Q23a,T3,rot3,sample,free,4,D. Both offline and online,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q20_T2,EN,none,Q20,T2,official,sample,prefill,6, F,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q20_T2,EN,none,Q20,T2,official,sample,free,6,F,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q36a_T3_rev,EN,none,Q36a,T3,rev,sample,prefill,11, A. 10 = Totally comfortable with this situation,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q36a_T3_rev,EN,none,Q36a,T3,rev,sample,free,11,A.,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q28a_T2_rev,EN,none,Q28a,T2,rev,sample,prefill,4, C. Probably should have the right,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q28a_T2_rev,EN,none,Q28a,T2,rev,sample,free,4,A,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q1_T2_rev,EN,none,Q1,T2,rev,sample,prefill,7, F.,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q1_T2_rev,EN,none,Q1,T2,rev,sample,free,7,F.,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q36a_T1,EN,none,Q36a,T1,official,sample,prefill,11, K. 10 = Totally comfortable with this situation,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q36a_T1,EN,none,Q36a,T1,official,sample,free,11,I. 8,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q17a_T2,EN,none,Q17a,T2,official,sample,prefill,5, B.,answer
+utter-project/EuroLLM-9B-Instruct,C4_Q17a_T2,EN,none,Q17a,T2,official,sample,free,5,A,answer
+utter-project/EuroLLM-9B-Instruct,C10_Q36a_T2,DE,Canada,Q36a,T2,official,flagged,prefill,11, I. 8,answer
+utter-project/EuroLLM-9B-Instruct,C10_Q36a_T2,DE,Canada,Q36a,T2,official,flagged,free,11,"Ich würde mich bei einer Operation durch einen Roboter wahrscheinlich unwohl fühlen, aber nicht extrem. Ich würde mich wahrscheinlich auf einer Skala von 0 bis 10 auf einem Wert zwischen 3",other

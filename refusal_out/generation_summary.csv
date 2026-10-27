@@ -1,0 +1,17 @@
+model,language,mode,n,share_answer,share_other,share_refusal
+Qwen/Qwen2.5-7B-Instruct,DE,free,56,1.0,0.0,0.0
+Qwen/Qwen2.5-7B-Instruct,DE,prefill,56,1.0,0.0,0.0
+Qwen/Qwen2.5-7B-Instruct,EN,free,56,1.0,0.0,0.0
+Qwen/Qwen2.5-7B-Instruct,EN,prefill,56,1.0,0.0,0.0
+meta-llama/Llama-3.1-8B-Instruct,DE,free,56,0.9821,0.0179,0.0
+meta-llama/Llama-3.1-8B-Instruct,DE,prefill,56,1.0,0.0,0.0
+meta-llama/Llama-3.1-8B-Instruct,EN,free,56,0.9643,0.0,0.0357
+meta-llama/Llama-3.1-8B-Instruct,EN,prefill,56,1.0,0.0,0.0
+openGPT-X/Teuken-7B-instruct-v0.6,DE,free,56,1.0,0.0,0.0
+openGPT-X/Teuken-7B-instruct-v0.6,DE,prefill,56,1.0,0.0,0.0
+openGPT-X/Teuken-7B-instruct-v0.6,EN,free,56,0.875,0.0179,0.1071
+openGPT-X/Teuken-7B-instruct-v0.6,EN,prefill,56,1.0,0.0,0.0
+utter-project/EuroLLM-9B-Instruct,DE,free,56,0.25,0.6607,0.0893
+utter-project/EuroLLM-9B-Instruct,DE,prefill,56,1.0,0.0,0.0
+utter-project/EuroLLM-9B-Instruct,EN,free,56,0.9286,0.0714,0.0
+utter-project/EuroLLM-9B-Instruct,EN,prefill,56,1.0,0.0,0.0
