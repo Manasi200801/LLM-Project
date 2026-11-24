@@ -1,0 +1,3 @@
+country_language,n,mean,median,sd,n_positive,n_negligible_abs_lt_0.01,min,max
+DE,120.0,0.0164,-0.0015,0.1091,58.0,18.0,-0.2016,0.47
+EN,120.0,-0.0151,-0.0018,0.105,57.0,28.0,-0.3593,0.2223
